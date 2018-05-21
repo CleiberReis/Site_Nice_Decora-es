@@ -1,3 +1,23 @@
+/* MOBILE */
+@media (max-width: 420px){
+
+    #header{
+        height: 200px;
+    }
+    
+    #logo{
+        display: block;
+        width: auto;
+        height: 150px;
+        padding-left: 30px;
+    }
+    
+    #text_log{
+        display: none;
+    }
+}
+
+/* DESKTOP */
 *{
     padding: 0px;
     margin: 0px;
@@ -34,8 +54,9 @@
     color: blue;
     text-align: center;
 }
+
 #conteudo{
-    height: 800px;
+    height: 1000px;
     background-color: blue;
 }
 
@@ -49,20 +70,22 @@
     padding-top: 75px;
 }
 
-@media (max-width: 420px){
-
-    #header{
-        height: 200px;
-    }
-    
-    #logo{
-        display: block;
-        width: auto;
-        height: 150px;
-        padding-left: 30px;
-    }
-    
-    #text_log{
-        display: none;
-    }
+.produtos {
+    min-height: 400px;
+    background-color: #a0f;
+    border: solid 2px #000;
+    margin-top: 65px;
+    text-align: center;
+}
+.produtos img{
+    height: 220px;
+    width: 220px;
+    margin: 20px 0 0 0;
+}
+.mercado-livre-link {
+    margin: 30px 0 0 0;
+}
+.titulo-produto {
+    font-weight: bold;
+    color: #ff0;
 }
