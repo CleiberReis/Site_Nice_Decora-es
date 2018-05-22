@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nice Decorações</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="images/img.ico" rel="icon">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="js/localization/messages_pt_BR.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap-notify.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mask.min.js" type="text/javascript"></script>
+        <script src="js/validacao.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function valformulario() {
+                $("#formulario").validate({
+                    rules: {
+                        nome: {
+                            required: true,
+                            maxlength: 80
+                        },
+                        telefone: {
+                            required: true,
+                            minlength: 8
+                        },
+                        email: {
+                            required: true,
+                            temArroba: true
+                        },
+                        mensagem: {
+                            required: true,
+                        }
+                    }
+                })
+                $("#telefone").mask("(00)00000-0000")
+            })
+        </script>
+    </head>
+    <body>
+        <div id="all" class="container">
+            <div id="header" class="col-md-12">
+                <div id="box_logo" class="container col-md-6">
+                    <div>
+                        <img id="logo" src="images/nice logo.png" alt=""/>
+                        <h1 id="text_log">Nice Decorações</h1>
+                    </div>
+                </div>
+            </div>
+
+            <nav  id="navbar" class="navbar navbar-expand-md sticky-top bg-warning navbar-dark">
+                <a class="navbar-brand" href="index.html">Nice Decorações</a>
+                <button  id="teste" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catálogo</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Cama</a>
+                                <a class="dropdown-item" href="#">Mesa</a>
+                                <a class="dropdown-item" href="#">Banho</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Todos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+<br/> 
+<--Contato-->
+<section id="contato">
+     <div class="container wow fadeInUp">
+        <div class="section-header">
+            <h3 class="section-title">Contato</h3>
+            <p class="section-description">Preencha o cadastro para fazer contato</p>
+        <hr class="m4">
+        </div>
+        <div class="container wow fadeInUp">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <form class="form-check" name="formulario" id="formulario" method="post" action="salvar.jsp" onsubmit="valFormulario">
+                <div class="form-group">
+                  <input type="text" name="nome" class="form-control" id="nome" placeholder="Seu Nome"/>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="email@email.com.br"/>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Celular (99)99999-9999"/>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="mensagem" rows="5" id="mensagem" placeholder="Deixe sua mensagem"></textarea>
+                </div>
+                <div class="text-center">
+                <button class="btn btn-dark text-center" type="submit">Enviar Mensagem</button>
+                </div>
+                <br/>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+</section>
+<!-- #contact -->
+            <div id="footer" class="col-md-12">
+                <h5 id="text_fot">
+                    &copy; 2018. Nice Decorações LTDA
+                </h5>
+            </div>
+        </div>
+    </body>
+</html>
