@@ -20,6 +20,7 @@
 
         <script type="text/javascript">
             $(document).ready(function valformulario() {
+
                 $("#formulario").validate({
                     rules: {
                         nome: {
@@ -32,16 +33,22 @@
                         },
                         email: {
                             required: true,
-                            temArroba: true
+                            temArroba: true,
+                            email: true
                         },
                         mensagem: {
                             required: true,
                         }
                     }
+                    //submitHandler: function (valformulario) {
+                    //$.notify("Dados enviados com sucesso!", "success")
+                    //}
                 })
                 $("#telefone").mask("(00)00000-0000")
+                return false
             })
         </script>
+
     </head>
     <body>
         <div id="all" class="container">
@@ -54,6 +61,7 @@
                 </div>
             </div>
 
+            <!navbar>
             <nav  id="navbar" class="navbar navbar-expand-md sticky-top bg-warning navbar-dark">
                 <a class="navbar-brand" href="index.html">Nice Decorações</a>
                 <button  id="teste" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -64,62 +72,64 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catálogo</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Cama</a>
-                                <a class="dropdown-item" href="#">Mesa</a>
-                                <a class="dropdown-item" href="#">Banho</a>
+                                <a class="dropdown-item" href="categoria01.html">Cama</a>
+                                <a class="dropdown-item" href="categoria02.html">Mesa</a>
+                                <a class="dropdown-item" href="categoria03.html">Banho</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Todos</a>
+                                <a class="dropdown-item" href="catalogo.html">Todos</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Quem somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>   
                     </ul>
                 </div>
             </nav>
-<br/> 
-<!--Contato-->
-<section id="contato">
-     <div class="container wow fadeInUp">
-        <div class="section-header">
-            <h3 class="section-title">Contato</h3>
-            <p class="section-description">Preencha o cadastro para fazer contato</p>
-        <hr class="m4">
-        </div>
-        <div class="container wow fadeInUp">
-        <div class="row justify-content-center">
 
-          <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <form class="form-check" name="formulario" id="formulario" method="post" action="salvar.jsp" onsubmit="valFormulario">
-                <div class="form-group">
-                  <input type="text" name="nome" class="form-control" id="nome" placeholder="Seu Nome"/>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="email@email.com.br"/>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Celular (99)99999-9999"/>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="mensagem" rows="5" id="mensagem" placeholder="Deixe sua mensagem"></textarea>
-                </div>
-                <div class="text-center">
-                <button class="btn btn-dark text-center" type="submit">Enviar Mensagem</button>
-                </div>
-                <br/>
-              </form>
-            </div>
-          </div>
+            <br/> 
 
-        </div>
+            <!--Contato-->
+            <section id="contato">
+                <div class="container wow fadeInUp">
+                    <div class="section-header">
+                        <h3 class="section-title">Contato</h3>
+                        <p class="section-description">Preencha os dados abaixo para enviar sua mensagem para nós</p>
+                        <hr class="m4">
+                    </div>
+                    <div class="container wow fadeInUp">
+                        <div class="row justify-content-center">
 
-      </div>
-</section>
-<!-- #contact -->
+                            <div class="col-lg-5 col-md-8">
+                                <div class="form">
+                                    <form class="form-check" name="formulario" id="formulario" method="post" action="salvar.jsp" onsubmit="return valFormulario()">
+                                        <div class="form-group">
+                                            <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu e-mail"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Celular (99)99999-9999"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="mensagem" rows="5" id="mensagem" placeholder="Deixe sua mensagem"></textarea>
+                                        </div>
+                                        <div class="text-center">
+                                            <button class="btn btn-dark text-center" type="submit">Enviar Mensagem</button>
+                                        </div>
+                                        <br/>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+            </section>
+            <!-- #contact -->
             <div id="footer" class="col-md-12">
                 <h5 id="text_fot">
                     &copy; 2018. Nice Decorações LTDA
