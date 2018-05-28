@@ -204,9 +204,9 @@
 * {box-sizing: border-box;}
 .mySlides {display: none;}
 .mySlides img {
-  vertical-align: middle;
-  width: 100%;
-  height: 500px;
+    vertical-align: middle;
+    width: 100%;
+    height: 500px;
 }
 
 /* Slideshow container */
