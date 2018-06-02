@@ -21,6 +21,9 @@
         <script type="text/javascript">
             $(document).ready(function valformulario() {
 
+                $("#telefone").mask("(00)0000-0000");
+                $("#celular").mask("(00)00000-0000");
+
                 $("#formulario").validate({
                     rules: {
                         nome: {
@@ -29,11 +32,14 @@
                         },
                         telefone: {
                             required: true,
-                            minlength: 8
+                            phoneBR: true
+                        },
+                        celular: {
+                            required: true,
+                            mobileBR: true
                         },
                         email: {
                             required: true,
-                            temArroba: true,
                             email: true
                         },
                         mensagem: {
@@ -44,7 +50,7 @@
                     //$.notify("Dados enviados com sucesso!", "success")
                     //}
                 })
-                $("#telefone").mask("(00)00000-0000")
+
                 return false
             })
         </script>
@@ -112,7 +118,10 @@
                                             <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu e-mail"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Celular (99)99999-9999"/>
+                                            <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Telefone (99)9999-9999"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="celular" id="celular" placeholder="Celular (99)99999-9999"/>
                                         </div>
                                         <div class="form-group">
                                             <textarea class="form-control" name="mensagem" rows="5" id="mensagem" placeholder="Deixe sua mensagem"></textarea>
