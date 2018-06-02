@@ -23,6 +23,10 @@
     margin: 0px;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 #all{
     border: #ffcc00 1px solid;
     padding: 0px;
