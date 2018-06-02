@@ -220,7 +220,7 @@
 /* Caption text */
 .text {
     color: black;
-    background-color: yellow;
+    background-color: #ffcc00;
     font-size: 25px;
     padding: 8px 12px;
     position: absolute;
