@@ -1,23 +1,20 @@
 /* MOBILE */
-@media screen and (max-width: 420px){
 
-    #header{
-        height: 200px;
-    }
-
-    #logo{
-        display: block;
-        width: auto;
-        height: 150px;
-        padding-left: 30px;
-    }
-
-    #text_log{
-        display: none;
-    }
+/* resposividade do logo (inicio) */
+@media screen and (max-width: 767px) {
+  #logo{
+      padding-left: 130px;
+  }
 }
 
-/* H1 do lado do logo RESPONSIVO (começo) */
+@media screen and (max-width: 510px){
+    #logo{
+        padding-left: 30px;
+    }
+}
+/* resposividade do logo (fim) */
+
+/* H1 do lado do logo RESPONSIVO (inicio) */
 @media screen and (max-width: 1199px) {
   #text_log {
     font-size: 1.9rem;
@@ -29,9 +26,16 @@
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 767px) {
+  #text_log{
+      display: none;
+  }
+}
 /* H1 do lado do logo RESPONSIVO (fim) */
 
 /* DESKTOP */
+
 *{
     padding: 0px;
     margin: 0px;
