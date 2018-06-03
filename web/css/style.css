@@ -1,5 +1,5 @@
 /* MOBILE */
-@media (max-width: 420px){
+@media screen and (max-width: 420px){
 
     #header{
         height: 200px;
@@ -16,6 +16,20 @@
         display: none;
     }
 }
+
+/* H1 do lado do logo RESPONSIVO (começo) */
+@media screen and (max-width: 1199px) {
+  #text_log {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #text_log {
+    font-size: 1rem;
+  }
+}
+/* H1 do lado do logo RESPONSIVO (fim) */
 
 /* DESKTOP */
 *{
