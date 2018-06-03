@@ -65,6 +65,7 @@ body{
     background-color: #28495B;
 }
 
+/* cor das letras de mensagem de erro do validate */
 label.error{
     color: #f00;
     font-weight: bold;
