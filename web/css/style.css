@@ -37,6 +37,12 @@ body{
     height: 200px;
 }
 
+#box_logo{
+    margin-top: 50px;
+    height: 170px;
+    border: #ffc107 1px solid;
+}
+
 #logo{
     height: 150px;
     width: auto;
@@ -47,12 +53,6 @@ body{
 #text_log{
     float: right;
     margin-top: 50px;
-}
-
-#box_logo{
-    margin-top: 50px;
-    height: 170px;
-    border: #ffc107 1px solid;
 }
 
 .navbar-dark{
