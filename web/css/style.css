@@ -55,6 +55,10 @@ body{
     margin-top: 50px;
 }
 
+#navbar{
+    width: 100%;
+}
+
 .navbar-dark{
     color: blue;
     text-align: center;
