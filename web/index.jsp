@@ -53,7 +53,7 @@
  <body>
 
 <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top navRodape">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
                     <strong>Nice Decorações</strong>
@@ -92,9 +92,9 @@
 
                 </div>
                 <div class="col-lg-9 col-sm-12">
-                    <div class="section-header">
+                    <div class="cabecalho">
                         <br/>
-                        <h2 class="section-title">Bem-vindo ao Nice Decorações
+                        <h2 class="titulo">Bem-vindo ao Nice Decorações
                             <img id=logo src="img/img.ico" class="img-fluid"/></h2>
                     </div>
 
@@ -132,9 +132,9 @@
                     <br/>
 
 <!--Portifolio de Principais Produtos-->
-                    <div class="section-header">
-                        <h3 class="section-title">Principais Produtos</h3>
-                        <p class="section-description">Conheça e compre nossos produtos.</p>
+                    <div class="cabecalho">
+                        <h3 class="titulo">Principais Produtos</h3>
+                        <p class="descricao">Conheça e compre nossos produtos.</p>
                     </div>
 
                     <div class="row">
@@ -235,9 +235,9 @@
                     <br/>
                     <br/>
                     
-                        <div class="section-header">
-                            <h3 class="section-title">Sobre</h3>
-                            <p class="section-description">Saiba mais sobre nossa loja.</p>
+                        <div class="cabecalho">
+                            <h3 class="titulo">Sobre</h3>
+                            <p class="descricao">Saiba mais sobre nossa loja.</p>
                         </div>
 
                         <div id="sobreDescricao">
@@ -256,9 +256,9 @@
 
 <!--Contato-->
                     <section id="contato">
-                        <div class="section-header">
-                            <h3 class="section-title">Contato</h3>
-                            <p class="section-description">Deixe sua mensagem para nós.</p>
+                        <div class="cabecalho">
+                            <h3 class="titulo">Contato</h3>
+                            <p class="descricao">Deixe sua mensagem para nós.</p>
                         </div>
 
                         <div class="container wow fadeInUp">
@@ -294,7 +294,7 @@
             </div>
         </div>
 <!-- Rodapé -->
-        <footer class="py-5 badge-info">
+        <footer class="py-5 navRodape">
             <div class="container">
                 <p class="m-0 text-center text-white">Nice Decorações &copy;</p>
             </div>

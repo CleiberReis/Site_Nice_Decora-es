@@ -23,7 +23,7 @@
     <body>
 
 <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top navRodape">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
                     <strong>Nice Decorações</strong>
@@ -55,9 +55,9 @@
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    <div class="section-header">
+                    <div class="cabecalho">
                         <br/>
-                         <h2 class="section-title">Nice Decorações
+                         <h2 class="titulo">Nice Decorações
                             <img id=logo src="img/img.ico" class="img-fluid"/></h2>
                     </div>
 
@@ -66,9 +66,9 @@
                     <br/>
 
 <!--Portifolio de Produtos-->
-                    <div class="section-header">
-                        <h3 class="section-title">Quarto</h3>
-                        <p class="section-description">Conheça e compre nossos produtos para seu quarto.</p>
+                    <div class="cabecalho">
+                        <h3 class="titulo">Quarto</h3>
+                        <p class="descricao">Conheça e compre nossos produtos para seu quarto.</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -166,7 +166,7 @@
             </div>
         </div>
 <!-- Rodapé -->
-        <footer class="py-5 badge-info">
+        <footer class="py-5 navRodape">
             <div class="container">
                 <p class="m-0 text-center text-white">Nice Decorações &copy;</p>
             </div>

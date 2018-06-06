@@ -2,15 +2,21 @@ body {
   padding-top: 54px;
   background-color: #f5f5f5;
 }
-
+/*logo nice do titulo principal*/
 #logo{
     width: 150px;
     height: 150px;
 }
+/*cor da barra de navegação e rodape*/
+.navRodape{
+    background-color: #17a2b8;
+}
+/*alinhamento do texto do sobre*/
 #sobreDescricao{
     text-align: center;
 }
-.section-header .section-title {
+/*alinhamento de titulos*/
+.cabecalho .titulo {
   font-size: 32px;
   color: #111;
   text-transform: uppercase;
@@ -19,19 +25,17 @@ body {
   margin-bottom: 5px;
 }
 
-.section-header .section-description {
+.cabecalho .descricao {
   text-align: center;
   padding-bottom: 40px;
   color: #999;
 }
-
-
+/*responsividade mobile*/
 @media only screen and (max-device-width: 492px){
-  body {
+body {
     padding-top: 56px;
   }
-  
-  #logo{
+#logo{
     display: none;
 }
 #ocultoSmart{
