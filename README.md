@@ -13,9 +13,3 @@
 > Professor Leandro Guarino [site](http://www.leandroguarino.com.br/)
 
 ## Empresa responsável: **Kuruminix**
-
-## GIT
-
-'em breve'
-
-##
