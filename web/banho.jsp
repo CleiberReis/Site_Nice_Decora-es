@@ -23,7 +23,7 @@
     <body>
         
 <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg fixed-top navRodape">
+        <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
                     <strong>Nice Decorações</strong>
@@ -168,7 +168,7 @@
             </div>
         </div>
 <!-- Rodapé -->
-        <footer class="py-5 navRodape">
+        <footer class="py-5 badge-info">
             <div class="container">
                 <p class="m-0 text-center text-white">Nice Decorações &copy;</p>
             </div>
