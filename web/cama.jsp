@@ -67,7 +67,7 @@
 
 <!--Portifolio de Produtos-->
                     <div class="cabecalho">
-                        <h3 class="titulo">Quarto</h3>
+                        <h3 class="titulo">Cama</h3>
                         <p class="descricao">Conheça e compre nossos produtos para seu quarto.</p>
                     </div>
                     <div class="row">
