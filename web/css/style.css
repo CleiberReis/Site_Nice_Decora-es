@@ -7,10 +7,6 @@ body {
     width: 150px;
     height: 150px;
 }
-/*cor da barra de navegação e rodape*/
-.navRodape{
-    background-color: #17a2b8;
-}
 /*alinhamento do texto do sobre*/
 #sobreDescricao{
     text-align: center;
