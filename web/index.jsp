@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link href="img/img.ico" rel="icon">
-        <title>Nice Decorações</title>
+        <title>Nice Decoraï¿½ï¿½es</title>
 
         <!-- Bootstrap / Validate / JQuery core CSS -->
         <link href="edit/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,9 +18,9 @@
         <script src="edit/bootstrap/js/validacao.js" type="text/javascript"></script>
         <script src="edit/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-        
+
         <link href="css/style.css" rel="stylesheet">
-<!--Código Script do Formulario-->
+<!--Cï¿½digo Script do Formulario-->
         <script type="text/javascript">
             $(document).ready(function valformulario() {
 
@@ -52,11 +52,11 @@
 
  <body>
 
-<!-- Barra de Navegação -->
+<!-- Barra de Navegaï¿½ï¿½o -->
         <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
-                    <strong>Nice Decorações</strong>
+                    <strong>Nice DecoraÃ§Ãµes</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -77,7 +77,7 @@
                 </div>
             </div>
         </nav>
-<!-- Categorias e Slide de Apresentação -->
+<!-- Categorias e Slide de Apresentaï¿½ï¿½o -->
         <div class="container">
             <div class="row">
                 <div id="ocultoSmart" class="col-lg-3">
@@ -94,7 +94,7 @@
                 <div class="col-lg-9 col-sm-12">
                     <div class="cabecalho">
                         <br/>
-                        <h2 class="titulo">Bem-vindo ao Nice Decorações
+                        <h2 class="titulo">Bem-vindo ao Nice Decoraï¿½ï¿½es
                             <img id=logo src="img/img.ico" class="img-fluid"/></h2>
                     </div>
 
@@ -121,7 +121,7 @@
                         </a>
                         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Próximo</span>
+                            <span class="sr-only">Prï¿½ximo</span>
                         </a>
                     </div>
 
@@ -134,7 +134,7 @@
 <!--Portifolio de Principais Produtos-->
                     <div class="cabecalho">
                         <h3 class="titulo">Principais Produtos</h3>
-                        <p class="descricao">Conheça e compre nossos produtos.</p>
+                        <p class="descricao">Conheï¿½a e compre nossos produtos.</p>
                     </div>
 
                     <div class="row">
@@ -146,7 +146,7 @@
                                         <a href="#">Toalha de Renda</a>
                                     </h4>
                                     <h5>R$00,00</h5>
-                                    <p class="card-text">Toalha de mesa em renda vermelha, perfeita para decoração de mesa.</p>
+                                    <p class="card-text">Toalha de mesa em renda vermelha, perfeita para decoraï¿½ï¿½o de mesa.</p>
                                     <p class="card-text">Clique no item para saber mais!</p>
                                 </div>
                                 <div class="card-footer">
@@ -174,7 +174,7 @@
                                 <a href="#"><img class="card-img-top" src="img/Mesa/img1.jpg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="#">Item três</a>
+                                        <a href="#">Item trï¿½s</a>
                                     </h4>
                                     <h5>R$00,00</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -228,13 +228,13 @@
 
 <!--Sobre-->
                     <section id="sobre">
-                    
+
                     <br/>
                     <br/>
                     <hr>
                     <br/>
                     <br/>
-                    
+
                         <div class="cabecalho">
                             <h3 class="titulo">Sobre</h3>
                             <p class="descricao">Saiba mais sobre nossa loja.</p>
@@ -242,8 +242,8 @@
 
                         <div id="sobreDescricao">
                             <p>
-                                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset
-                                lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                                Lorem Ipsum ï¿½ simplesmente uma simulaï¿½ï¿½o de texto da indï¿½stria tipogrï¿½fica e de impressos, e vem sendo utilizado desde o sï¿½culo XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu nï¿½o sï¿½ a cinco sï¿½culos, como tambï¿½m ao salto para a editoraï¿½ï¿½o eletrï¿½nica, permanecendo essencialmente inalterado. Se popularizou na dï¿½cada de 60, quando a Letraset
+                                lanï¿½ou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoraï¿½ï¿½o eletrï¿½nica como Aldus PageMaker.
                             </p>
                         </div>
                     </section>
@@ -258,7 +258,7 @@
                     <section id="contato">
                         <div class="cabecalho">
                             <h3 class="titulo">Contato</h3>
-                            <p class="descricao">Deixe sua mensagem para nós.</p>
+                            <p class="descricao">Deixe sua mensagem para nï¿½s.</p>
                         </div>
 
                         <div class="container wow fadeInUp">
@@ -293,13 +293,11 @@
                 </div>
             </div>
         </div>
-<!-- Rodapé -->
+<!-- Rodapï¿½ -->
         <footer class="py-5 badge-info">
             <div class="container">
-                <p class="m-0 text-center text-white">Nice Decorações &copy;</p>
+                <p class="m-0 text-center text-white">Nice Decoraï¿½ï¿½es &copy;</p>
             </div>
         </footer>
     </body>
 </html>
-
-
