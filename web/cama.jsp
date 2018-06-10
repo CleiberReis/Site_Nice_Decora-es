@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link href="img/img.ico" rel="icon">
-        <title>Nice Decorações</title>
+        <title>Nice Decoraï¿½ï¿½es</title>
 
         <!-- Bootstrap / Validate / JQuery / CSS -->
         <link href="edit/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,11 +22,11 @@
     </head>
     <body>
 
-<!-- Barra de Navegação -->
+<!-- Barra de Navegaï¿½ï¿½o -->
         <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
-                    <strong>Nice Decorações</strong>
+                    <strong>Nice Decoraï¿½ï¿½es</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.jsp">Página Inicial
+                            <a class="nav-link" href="index.jsp">Pï¿½gina Inicial
                             </a>
                         </li>
                     </ul>
@@ -57,7 +57,7 @@
                 <div class="col-lg-9">
                     <div class="cabecalho">
                         <br/>
-                         <h2 class="titulo">Nice Decorações
+                         <h2 class="titulo">Nice Decoraï¿½ï¿½es
                             <img id=logo src="img/img.ico" class="img-fluid"/></h2>
                     </div>
 
@@ -68,7 +68,7 @@
 <!--Portifolio de Produtos-->
                     <div class="cabecalho">
                         <h3 class="titulo">Cama</h3>
-                        <p class="descricao">Conheça e compre nossos produtos para seu quarto.</p>
+                        <p class="descricao">Conheï¿½a e compre nossos produtos para seu quarto.</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -79,7 +79,7 @@
                                         <a href="#">Toalha de Renda</a>
                                     </h4>
                                     <h5>R$00,00</h5>
-                                    <p class="card-text">Toalha de mesa em renda vermelha, perfeita para decoração de mesa.</p>
+                                    <p class="card-text">Toalha de mesa em renda vermelha, perfeita para decoraï¿½ï¿½o de mesa.</p>
                                     <p class="card-text">Clique no item para saber mais!</p>
                                 </div>
                                 <div class="card-footer">
@@ -100,13 +100,13 @@
                                 </div>
                             </div>
                         </div>
-                      
+
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
                                 <a href="#"><img class="card-img-top" src="img/Cama/img3.jpg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="#">Item três</a>
+                                        <a href="#">Item trï¿½s</a>
                                     </h4>
                                     <h5>R$00,00</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -161,14 +161,14 @@
                     <br/>
                     <hr>
                     <br/>
-                
+
                 </div>
             </div>
         </div>
-<!-- Rodapé -->
+<!-- Rodapï¿½ -->
         <footer class="py-5 badge-info">
             <div class="container">
-                <p class="m-0 text-center text-white">Nice Decorações &copy;</p>
+                <p class="m-0 text-center text-white">Nice Decoraï¿½ï¿½es &copy;</p>
             </div>
         </footer>
     </body>

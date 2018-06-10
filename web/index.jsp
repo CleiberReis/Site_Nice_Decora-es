@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link href="img/img.ico" rel="icon">
-        <title>Nice Decorações</title>
+        <title>Nice DecoraÃ§Ãµes</title>
 
         <!-- Bootstrap / Validate / JQuery core CSS -->
         <link href="edit/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +21,7 @@
 
 
         <link href="css/style.css" rel="stylesheet">
-<!--Código Script do Formulario-->
+<!--CÃ³digo Script do Formulario-->
         <script type="text/javascript">
             $(document).ready(function valformulario() {
 
@@ -52,11 +53,11 @@
 
  <body>
 
-<!-- Barra de Navegação -->
+<!-- Barra de NavegaÃ§Ã£o -->
         <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
-                    <strong>Nice Decorações</strong>
+                    <strong>Nice DecoraÃ§Ãµes</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -77,7 +78,7 @@
                 </div>
             </div>
         </nav>
-<!-- Categorias e Slide de Apresentaï¿½ï¿½o -->
+<!-- Categorias e Slide de ApresentaÃ§Ã£o -->
         <div class="container">
             <div class="row">
                 <div id="ocultoSmart" class="col-lg-3">
@@ -94,7 +95,7 @@
                 <div class="col-lg-9 col-sm-12">
                     <div class="cabecalho">
                         <br/>
-                        <h2 class="titulo">Bem-vindo ao Nice Decorções
+                        <h2 class="titulo">Bem-vindo ao Nice DecoraÃ§Ãµes
                             <img id=logo src="img/img.ico" class="img-fluid"/></h2>
                     </div>
 
@@ -121,7 +122,7 @@
                         </a>
                         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Próximo</span>
+                            <span class="sr-only">PrÃ³ximo</span>
                         </a>
                     </div>
 
@@ -134,7 +135,7 @@
 <!--Portifolio de Principais Produtos-->
                     <div class="cabecalho">
                         <h3 class="titulo">Principais Produtos</h3>
-                        <p class="descricao">Conheça e compre nossos produtos.</p>
+                        <p class="descricao">ConheÃ§a e compre nossos produtos</p>
                     </div>
 
                     <div class="row">
@@ -174,7 +175,7 @@
                                 <a href="#"><img class="card-img-top" src="img/Mesa/img1.jpg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="#">Item três</a>
+                                        <a href="#">Item trÃªs</a>
                                     </h4>
                                     <h5>R$00,00</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -258,45 +259,44 @@
                     <section id="contato">
                         <div class="cabecalho">
                             <h3 class="titulo">Contato</h3>
-                            <p class="descricao">Deixe sua mensagem para nós.</p>
+                            <p class="descricao">Deixe sua mensagem para nÃ³s.</p>
                         </div>
-
-                        <div class="container wow fadeInUp">
+                          <div class="container wow fadeInUp">
                             <div class="row justify-content-center">
-
                                 <div class="col-lg-8 col-md-8 col-sm-6">
                                     <div class="form">
-                                        <form class="form-check" name="formulario" id="formulario" method="post" action="salvar.jsp" onsubmit="return valFormulario()">
-                                            <div class="form-group">
-                                                <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome"/>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu e-mail"/>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Celular (99)99999-9999"/>
-                                            </div>
-                                            <div class="form-group">
-                                                <textarea class="form-control" name="mensagem" rows="5" id="mensagem" placeholder="Deixe sua mensagem"></textarea>
-                                            </div>
-                                            <div class="text-center">
-                                                <button class="btn btn-dark text-center" type="submit">Enviar Mensagem</button>
-                                            </div>
-                                            <br/>
-                                        </form>
+                                      <form class="form-check" name="formulario" id="formulario" method="post" action="salvar.jsp" onsubmit="return valFormulario()">
+                                        <div class="form-group">
+                                            <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome*"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu e-mail*"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Celular (99)99999-9999*"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="mensagem" rows="5" id="mensagem" placeholder="Deixe sua mensagem"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                          <input type="checkbox" name="termo" id="termo" value="termo_ac" > Ao usar este formulÃ¡rio, vocÃª concorda com o armazenamento e o manuseio de seus dados por este site. *</input>
+                                        </div>
+                                        <div class="text-center">
+                                            <button class="btn btn-dark text-center" type="submit">Enviar Mensagem</button>
+                                        </div>
+                                        <br/>
+                                      </form>
                                     </div>
+                                  </div>
                                 </div>
-
                             </div>
-
                     </section>
-                </div>
             </div>
         </div>
-<!-- Rodapï¿½ -->
+<!-- RodapÃ© -->
         <footer class="py-5 badge-info">
             <div class="container">
-                <p class="m-0 text-center text-white">Nice Decorações &copy;</p>
+                <p class="m-0 text-center text-white">Nice DecoraÃ§Ãµes &copy; 2018 - Todos os direitos reservados</p>
             </div>
         </footer>
     </body>
