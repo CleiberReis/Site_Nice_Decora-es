@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package dominio;
 
-/**
- *
- * @author cliente
- */
 public class Pessoa {
+    private String nome;
+    private String email;
     
+    public void setNome(String novoNome){
+        nome = novoNome;
+    }
+    public void setEmail(String novoEmail){
+        email = novoEmail;
+    }
+    
+    public String getNome(){
+        return nome;
+    }
+    public String getEmail(){
+        return email;
+    }
 }
