@@ -69,16 +69,19 @@
 
                     <!--Descriçao do Produo-->
                     <div class="card text-center">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                            2 days ago
+                        <div class="jumbotron">
+                            <div class="text-center">
+                                <img src="img/Banho/img1.jpg" class="rounded img-fluid" alt=""/>
+                            </div>
+                            <h1 class="display-4">Conjunto de Banheiro</h1>
+                            <p class="lead">Um lindo conjunto para harmonizar e embelezar o seu banheiro.</p>
+                            <hr class="my-4">
+                            <p><span>Tamanho: </span>30cmX30cm</p>
+                            <p><span>Material: </span>30cmX30cm</p>
+                            <p><span>Cor: </span>30cmX30cm</p>
+                            <hr class="my-4">
+                            <p class="lead">Clique em "Comprar" para ter esse lindo produto.</p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Comprar</a>
                         </div>
                     </div>
                 </div>
