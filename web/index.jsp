@@ -22,7 +22,7 @@
 
 
         <link href="css/style.css" rel="stylesheet">
-        <!--CÃ³digo Script do Formulario-->
+<!--Código Script do Formulario-->
         <script type="text/javascript">
             $(document).ready(function valformulario() {
 
@@ -49,12 +49,10 @@
                 $("#telefone").mask("(00)00000-0000")
             })
         </script>
-
     </head>
-
     <body>
 
-        <!-- Barra de NavegaÃ§Ã£o -->
+<!-- Barra de Navegação -->
         <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
@@ -79,7 +77,7 @@
                 </div>
             </div>
         </nav>
-        <!-- Categorias e Slide de ApresentaÃ§Ã£o -->
+<!-- Categorias e Slide de Apresentaçãoo -->
         <div class="container">
             <div class="row">
                 <div id="ocultoSmart" class="col-lg-3">
@@ -133,7 +131,7 @@
                     <br/>
                     <br/>
 
-                    <!--Portifolio de Principais Produtos-->
+<!--Portifolio de Principais Produtos-->
                     <div class="cabecalho">
                         <h3 class="titulo">Principais Produtos</h3>
                         <p class="descricao">Conheça e compre nossos produtos</p>
@@ -227,16 +225,14 @@
                             </div>
                         </div>
                     </div>
-
-                    <!--Sobre-->
+<!--Sobre-->
                     <section id="sobre">
-
-                        <br/>
-                        <br/>
-                        <hr>
-                        <br/>
-                        <br/>
-
+                    <br/>
+                    <br/>
+                    <hr>
+                    <br/>
+                    <br/>
+                    
                         <div class="cabecalho">
                             <h3 class="titulo">Sobre</h3>
                             <p class="descricao">Saiba mais sobre nossa loja.</p>
@@ -256,7 +252,7 @@
                     <br/>
                     <br/>
 
-                    <!--Contato-->
+<!--Contato-->
                     <section id="contato">
                         <div class="cabecalho">
                             <h3 class="titulo">Contato</h3>
@@ -302,11 +298,12 @@
                     </section>
                 </div>
             </div>
-            <!-- RodapÃ© -->
-            <footer class="py-5 badge-info">
-                <div class="container">
-                    <p class="m-0 text-center text-white">Nice DecoraÃ§Ãµes &copy; 2018 - Todos os direitos reservados</p>
-                </div>
-            </footer>
+        </div>
+<!-- Rodapé -->
+        <footer class="py-5 badge-info">
+            <div class="container">
+                <p class="m-0 text-center text-white">Nice Decorações &copy; 2018 - Todos os direitos reservados</p>
+            </div>
+        </footer>
     </body>
 </html>
