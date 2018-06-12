@@ -22,7 +22,7 @@
     </head>
     <body>
 
-<!-- Barra de Navegação -->
+        <!-- Barra de Navegação -->
         <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </nav>
-<!-- Categorias e Logo -->
+        <!-- Categorias e Logo -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -57,7 +57,7 @@
                 <div class="col-lg-9">
                     <div class="cabecalho">
                         <br/>
-                         <h2 class="titulo">Nice Decorações
+                        <h2 class="titulo">Nice Decorações
                             <img id=logo src="img/img.ico" class="img-fluid"/></h2>
                     </div>
 
@@ -65,10 +65,22 @@
                     <hr>
                     <br/>
                 </div>
-                    </div>
+            </div>
         </div>
 <!--Descriçao do Produo-->
-Em construção
+        <div class="card text-center">
+            <div class="card-header">
+                Featured
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+                2 days ago
+            </div>
+        </div>
 <!-- Rodapé -->
         <footer class="py-5 badge-info">
             <div class="container">
