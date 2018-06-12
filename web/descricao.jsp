@@ -60,20 +60,16 @@
                         <h2 class="titulo">Nice Decorações
                             <img id=logo src="img/img.ico" class="img-fluid"/></h2>
                     </div>
-
-                    <br/>
                     <hr>
                     <br/>
-
-
-
                     <!--Descriçao do Produo-->
                     <div class="card text-center">
                         <div class="jumbotron">
+                            <h1 class="display-4">Conjunto de Banheiro</h1>
+                            <br/>
                             <div class="text-center">
                                 <img src="img/Banho/img1.jpg" class="rounded img-fluid" alt=""/>
                             </div>
-                            <h1 class="display-4">Conjunto de Banheiro</h1>
                             <p class="lead">Um lindo conjunto para harmonizar e embelezar o seu banheiro.</p>
                             <hr class="my-4">
                             <p><span>Tamanho: </span>30cmX30cm</p>
