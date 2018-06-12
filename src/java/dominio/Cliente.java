@@ -11,7 +11,7 @@ public class Cliente extends Pessoa {
         mensagem = novoMensagem;
     }
   
-    public String geTelefone(){
+    public String getTelefone(){
         return telefone;
     }
     public String getMensagem(){
