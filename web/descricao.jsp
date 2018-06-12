@@ -64,7 +64,9 @@
                     <br/>
                     <hr>
                     <br/>
-
+                </div>
+                    </div>
+        </div>
 <!--Descriçao do Produo-->
 Em construção
 <!-- Rodapé -->
