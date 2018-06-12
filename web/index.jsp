@@ -143,7 +143,7 @@
                                 <a href="descricao.jsp"><img class="card-img-top" src="img/Banho/img3.jpg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="#">Toalha de Renda</a>
+                                        <a href="descricao.jsp">Toalha de Renda</a>
                                     </h4>
                                     <h5>R$00,00</h5>
                                     <p class="card-text">Toalha de mesa em renda vermelha, perfeita para decoraï¿½ï¿½o de mesa.</p>
