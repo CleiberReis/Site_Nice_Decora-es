@@ -17,9 +17,9 @@
         <script src="js/jquery.validate.min.js" type="text/javascript"></script>
         <script src="js/localization/messages_pt_BR.js" type="text/javascript"></script>
         <script src="js/notify.min.js" type="text/javascript"></script>
+        <link href="animate/animate.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/validacao.js" type="text/javascript"></script>
         <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-
         <link href="css/style.css" rel="stylesheet">
         <!--Código Script do Formulario-->
         <script type="text/javascript">
