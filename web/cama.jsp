@@ -37,7 +37,7 @@
                             <a class="nav-link" href="index.jsp">Principal
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item active dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Categorias
                             </a>
@@ -47,10 +47,10 @@
                                 <a class="dropdown-item" href="banho.jsp">Banho</a>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="#sobre">Sobre</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="#contato">Contato</a>
                         </li>
                     </ul>
