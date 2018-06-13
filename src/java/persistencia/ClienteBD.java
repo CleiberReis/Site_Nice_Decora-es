@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class ClienteBD {
     
-    private static String caminho = "C:\\Users\\Desiree\\Desktop\\ProjetoNice\\Site_Nice_Decora-es\\";
+    private static String caminho = "C:\\Users\\cleib\\Desktop\\Site_Nice_Decora-es\\";
     
     private static ArrayList<Cliente> lista = new ArrayList<Cliente>();
     public static void inserir(Cliente cliente){
