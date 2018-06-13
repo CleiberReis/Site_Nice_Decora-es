@@ -2,15 +2,15 @@ package dominio;
 
 public class Produto extends Categoria{
     private String nome;
-    private String preco;
+    private double preco;
     private String cor;
     private String material;
-    private String tamanho;
+    private double tamanho;
     
     public void setNome(String novoNome){
         nome = novoNome;
     }
-    public void setPreco(String novoPreco){
+    public void setPreco(double novoPreco){
         preco = novoPreco;
     }
      public void setCor(String novoCor){
@@ -19,7 +19,7 @@ public class Produto extends Categoria{
     public void setMaterial(String novoMaterial){
         material = novoMaterial;
     }
-     public void setTamanho(String novoTamanho){
+     public void setTamanho(double novoTamanho){
         tamanho = novoTamanho;
     }
    
@@ -27,7 +27,7 @@ public class Produto extends Categoria{
     public String getNome(){
         return nome;
     }
-    public String getPreco(){
+    public double getPreco(){
         return preco;
     }
     public String getCor(){
@@ -36,7 +36,7 @@ public class Produto extends Categoria{
     public String getMaterial(){
         return material;
     }
-    public String getTamanho(){
+    public double getTamanho(){
         return tamanho;
     }
 }

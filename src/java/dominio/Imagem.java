@@ -1,27 +1,27 @@
 package dominio;
 
 public class Imagem {
-    private String largura;
-    private String altura;
-    private String extensao;
+    private double largura;
+    private double altura;
+    private double extensao;
     
-    public void setLargura(String novoLargura){
+    public void setLargura(double novoLargura){
         largura = novoLargura;
     }
-    public void setAltura(String novoAltura){
+    public void setAltura(double novoAltura){
         altura = novoAltura;
     }
-     public void setExtensao(String novoExtensao){
+     public void setExtensao(double novoExtensao){
         extensao = novoExtensao;
     }
   
-    public String getLargura(){
+    public double getLargura(){
         return largura;
     }
-    public String getAltura(){
+    public double getAltura(){
         return altura;
     }
-    public String getExtensao(){
+    public double getExtensao(){
         return extensao;
     }
 }
