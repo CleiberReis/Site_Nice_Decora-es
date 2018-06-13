@@ -82,6 +82,9 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="#contato">Contato</a>
                         </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Administrativo</a>
+                        </li>
                     </ul>
                 </div>
             </div>
