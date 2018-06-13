@@ -57,7 +57,7 @@
                 </div>
             </div>
         </nav>
-        </nav>
+ 
         <!-- Categorias e Logo -->
        <div class="container">
             <div class="row justify-content-md-center">
