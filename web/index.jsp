@@ -22,7 +22,7 @@
 
 
         <link href="css/style.css" rel="stylesheet">
-<!--Código Script do Formulario-->
+        <!--Código Script do Formulario-->
         <script type="text/javascript">
             $(document).ready(function valformulario() {
 
@@ -52,7 +52,7 @@
     </head>
     <body>
 
-<!-- Barra de Navegação -->
+        <!-- Barra de Navegação -->
         <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
@@ -67,6 +67,16 @@
                             <a class="nav-link" href="index.jsp">Principal
                             </a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="cama.jsp">Cama</a>
+                                <a class="dropdown-item" href="mesa.jsp">Mesa</a>
+                                <a class="dropdown-item" href="banho.jsp">Banho</a>
+                            </div>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#sobre">Sobre</a>
                         </li>
@@ -77,20 +87,9 @@
                 </div>
             </div>
         </nav>
-<!-- Categorias e Slide de Apresentaçãoo -->
+        <!-- Slide de Apresentaçãoo -->
         <div class="container">
-            <div class="row">
-                <div id="ocultoSmart" class="col-lg-3">
-                    <br/>
-                    <h3 class="text-center my-4">Categorias</h3>
-                    <hr>
-                    <div class="text-center list-group">
-                        <a href="cama.jsp" class="list-group-item">Cama</a>
-                        <a href="mesa.jsp" class="list-group-item">Mesa</a>
-                        <a href="banho.jsp" class="list-group-item">Banho</a>
-                    </div>
-
-                </div>
+            <div class="row justify-content-md-center">
                 <div class="col-lg-9 col-sm-12">
                     <div class="cabecalho">
                         <br/>
@@ -131,7 +130,7 @@
                     <br/>
                     <br/>
 
-<!--Portifolio de Principais Produtos-->
+                    <!--Portifolio de Principais Produtos-->
                     <div class="cabecalho">
                         <h3 class="titulo">Principais Produtos</h3>
                         <p class="descricao">Conheça e compre nossos produtos</p>
@@ -225,14 +224,14 @@
                             </div>
                         </div>
                     </div>
-<!--Sobre-->
+                    <!--Sobre-->
                     <section id="sobre">
-                    <br/>
-                    <br/>
-                    <hr>
-                    <br/>
-                    <br/>
-                    
+                        <br/>
+                        <br/>
+                        <hr>
+                        <br/>
+                        <br/>
+
                         <div class="cabecalho">
                             <h3 class="titulo">Sobre</h3>
                             <p class="descricao">Saiba mais sobre nossa loja.</p>
@@ -252,7 +251,7 @@
                     <br/>
                     <br/>
 
-<!--Contato-->
+                    <!--Contato-->
                     <section id="contato">
                         <div class="cabecalho">
                             <h3 class="titulo">Contato</h3>
@@ -299,7 +298,7 @@
                 </div>
             </div>
         </div>
-<!-- Rodapé -->
+        <!-- Rodapé -->
         <footer class="py-5 badge-info">
             <div class="container">
                 <p class="m-0 text-center text-white">Nice Decorações &copy; 2018 - Todos os direitos reservados</p>

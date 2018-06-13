@@ -22,7 +22,7 @@
     </head>
     <body>
         
-<!-- Barra de Navegação -->
+ <!-- Barra de Navegação -->
         <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
@@ -34,8 +34,24 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.jsp">Página Inicial
+                            <a class="nav-link" href="index.jsp">Principal
                             </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="cama.jsp">Cama</a>
+                                <a class="dropdown-item" href="mesa.jsp">Mesa</a>
+                                <a class="dropdown-item" href="banho.jsp">Banho</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -43,24 +59,13 @@
         </nav>
 <!-- Categorias e Logo -->
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <br/>
-                    <h3 class="text-center my-4">Categorias</h3>
-                    <hr>
-                    <div class="text-center list-group">
-                        <a href="cama.jsp" class="list-group-item">Cama</a>
-                        <a href="mesa.jsp" class="list-group-item">Mesa</a>
-                        <a href="banho.jsp" class="list-group-item">Banho</a>
-                    </div>
-                </div>
-                <div class="col-lg-9">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-9 col-sm-12">
                     <div class="cabecalho">
                         <br/>
-                         <h2 class="titulo">Nice Decorações
+                        <h2 class="titulo">Bem-vindo ao Nice Decorações
                             <img id=logo src="img/img.ico" class="img-fluid"/></h2>
                     </div>
-
                     <br/>
                     <hr>
                     <br/>
