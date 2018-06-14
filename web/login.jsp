@@ -19,7 +19,7 @@
         <script src="edit/jquery/notify.min.js" type="text/javascript"></script>
         <script src="edit/bootstrap/js/validacao.js" type="text/javascript"></script>
         <script src="edit/bootstrap/js/bootstrap.bundle.min.js"></script>
-        
+
 
 
         <link href="css/style.css" rel="stylesheet">
@@ -90,41 +90,34 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-8 col-sm-6">
                     <div class="form">
-                        <%
-                            String status = request.getParameter("status");
-                            if (status != null) {
-                                if (status.equals("OK")) {
-                                    out.println("Login efetuado com Sucesso!");
-                                }
-                            }
-                        %>
+                       
                         <div class="container wow fadeInUp">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                        <form class="form-check" name="formulario" id="formulario" method="post" action="inserir.jsp" onsubmit="return valFormulario()">
-                            <div class="row justify-content-center">
-                            <div class="col-lg-8 col-md-8 col-sm-8"> 
-                            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
-                            </div>
+                                    <form class="form-check" name="formulario" id="formulario" method="post" action="cadastrarProduto.jsp" onsubmit="return valFormulario()">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-8 col-md-8 col-sm-8"> 
+                                                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="senha" class="form-control" name="senha" id="senha" placeholder="Password"/>
+                                        </div>
+                                        <div class="text-center">
+                                            <button class="btn btn-dark text-center" type="submit">Efetuar Login</button>
+                                        </div>
+                                        <br/>
+                                    </form>
                                 </div>
-                            <div class="form-group">
-                                <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome"/>
-                            </div>
-                            <div class="form-group">
-                                <input type="senha" class="form-control" name="senha" id="senha" placeholder="Password"/>
-                            </div>
-                            <div class="text-center">
-                                <button class="btn btn-dark text-center" type="submit">Efetuar Login</button>
-                            </div>
-                            <br/>
-                        </form>
-                    </div>
-                        </div> 
-                        <div class="col-md-2 col-sm-12"></div>
+                            </div> 
+                            <div class="col-md-2 col-sm-12"></div>
                         </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 </div>
 </div>
