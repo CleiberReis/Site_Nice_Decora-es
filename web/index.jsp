@@ -245,6 +245,7 @@
                                 lanï¿½ou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoraï¿½ï¿½o eletrï¿½nica como Aldus PageMaker.
                             </p>
                         </div>
+                        <!--Mapa e texto de endereço para localização-->
                         <div id="mapaLocalizacao">
                             <h1>Onde nos encontrar:</h1>
                             <p>Rua Domingos Garcia, 181, Aparecida-SP.</p>
