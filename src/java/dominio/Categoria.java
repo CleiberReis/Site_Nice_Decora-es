@@ -1,20 +1,23 @@
 package dominio;
 
 public class Categoria {
+
     private int codigo;
     private String descricao;
-    
-    public void setCodigo(int novoCodigo){
+
+    public void setCodigo(int novoCodigo) {
         codigo = novoCodigo;
     }
-    public void setDescricao(String novoDescricao){
+
+    public void setDescricao(String novoDescricao) {
         descricao = novoDescricao;
     }
-  
-    public int geCodigo(){
+
+    public int getCodigo() {
         return codigo;
     }
-    public String getDescricao(){
+
+    public String getDescricao() {
         return descricao;
     }
 }
