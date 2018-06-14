@@ -90,14 +90,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-8 col-sm-6">
                     <div class="form">
-                        <%
-                            // String status = request.getParameter("status");
-                            //if (status != null) {
-                            // if (status.equals("OK")) {
-                            //    out.println("Login efetuado com Sucesso!");
-                            //   }
-                            // }
-%>
+                       
                         <div class="container wow fadeInUp">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
