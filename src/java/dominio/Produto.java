@@ -1,42 +1,50 @@
 package dominio;
 
-public class Produto extends Categoria{
+public class Produto extends Categoria {
+
     private String nome;
     private double preco;
     private String cor;
     private String material;
     private double tamanho;
-    
-    public void setNome(String novoNome){
-        nome = novoNome;
+
+    public void setNome(String novoNome) {
+        this.nome = novoNome;
     }
-    public void setPreco(double novoPreco){
-        preco = novoPreco;
+
+    public void setPreco(double novoPreco) {
+        this.preco = novoPreco;
     }
-     public void setCor(String novoCor){
-        cor = novoCor;
+
+    public void setCor(String novoCor) {
+        this.cor = novoCor;
     }
-    public void setMaterial(String novoMaterial){
-        material = novoMaterial;
+
+    public void setMaterial(String novoMaterial) {
+        this.material = novoMaterial;
     }
-     public void setTamanho(double novoTamanho){
-        tamanho = novoTamanho;
+
+    public void setTamanho(double novoTamanho) {
+        this.tamanho = novoTamanho;
     }
-   
-  
-    public String getNome(){
+
+    public String getNome() {
         return nome;
     }
-    public double getPreco(){
+
+    public double getPreco() {
         return preco;
     }
-    public String getCor(){
+
+    public String getCor() {
         return cor;
     }
-    public String getMaterial(){
+
+    public String getMaterial() {
         return material;
     }
-    public double getTamanho(){
+
+    public double getTamanho() {
         return tamanho;
     }
 }
