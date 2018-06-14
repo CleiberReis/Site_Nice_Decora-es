@@ -91,17 +91,17 @@
                 <div class="col-lg-8 col-md-8 col-sm-6">
                     <div class="form">
                         <%
-                            String status = request.getParameter("status");
-                            if (status != null) {
-                                if (status.equals("OK")) {
-                                    out.println("Login efetuado com Sucesso!");
-                                }
-                            }
+                           // String status = request.getParameter("status");
+                            //if (status != null) {
+                               // if (status.equals("OK")) {
+                                //    out.println("Login efetuado com Sucesso!");
+                             //   }
+                           // }
                         %>
                         <div class="container wow fadeInUp">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                        <form class="form-check" name="formulario" id="formulario" method="post" action="inserir.jsp" onsubmit="return valFormulario()">
+                        <form class="form-check" name="formulario" id="formulario" method="post" action="cadastrarProduto.jsp" onsubmit="return valFormulario()">
                             <div class="row justify-content-center">
                             <div class="col-lg-8 col-md-8 col-sm-8"> 
                             <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
