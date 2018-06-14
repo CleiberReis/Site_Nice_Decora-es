@@ -22,9 +22,6 @@
         <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <link href="css/style.css" rel="stylesheet">
         
-        <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
-
-        
         <!--Código Script do Formulario-->
         <script type="text/javascript">
             $(document).ready(function valformulario() {
