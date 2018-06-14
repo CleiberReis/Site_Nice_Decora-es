@@ -83,7 +83,7 @@
                             <a class="nav-link" href="#contato">Contato</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="login.jsp">Administrativo</a>
+                            <a class="nav-link" href="administrador/login.jsp">Administrativo</a>             
                         </li>
                     </ul>
                 </div>
