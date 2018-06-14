@@ -24,13 +24,14 @@ body {
     font-weight: 700;
     margin-bottom: 5px;
 }
-
 .cabecalho .descricao {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     color: #999;
 }
-
+#termoForm{
+    color: #999;
+}
 /*responsividade mobile*/
 @media only screen and (max-device-width: 492px){
     body {

@@ -5,8 +5,8 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <link href="img/img.ico" rel="icon">
+        
+        <link href="../img/img.ico" rel="icon">
         <title>Nice Decorações</title>
 
         <!-- Bootstrap / Validate / JQuery core CSS -->
@@ -46,7 +46,7 @@
         <!-- Barra de Navegação -->
         <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="index.jsp">
+                <a class="navbar-brand" href="../index.jsp">
                     <strong>Nice Decorações</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +55,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.jsp">Principal
+                            <a class="nav-link" href="../index.jsp">Principal
                             </a>
                         </li>
                         <li class="nav-item active dropdown">
@@ -63,9 +63,9 @@
                                 Categorias
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="cama.jsp">Cama</a>
-                                <a class="dropdown-item" href="mesa.jsp">Mesa</a>
-                                <a class="dropdown-item" href="banho.jsp">Banho</a>
+                                <a class="dropdown-item" href="../cama.jsp">Cama</a>
+                                <a class="dropdown-item" href="../mesa.jsp">Mesa</a>
+                                <a class="dropdown-item" href="../banho.jsp">Banho</a>
                             </div>
                         </li>
                         <li class="nav-item active">
@@ -80,11 +80,15 @@
         </div>
     </nav>
     <!-- login admm -->
-    <section id="contato">
+        <br/>
+        <br/>
         <div class="cabecalho">
             <h3 class="titulo">Login de Adm</h3>
             <!-- <p class="descricao"></p>-->
         </div>
+        <br/>
+        <hr>
+        <br/>
         <div class="container wow fadeInUp">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-8 col-sm-6">
@@ -95,10 +99,11 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <form class="form-check" name="formulario" id="formulario" method="post" action="cadastrarProduto.jsp" onsubmit="return valFormulario()">
                                         <div class="row justify-content-center">
-                                            <div class="col-lg-8 col-md-8 col-sm-8"> 
-                                                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                                            <div class="col-lg-8 col-md-8 col-sm-8 text-center">
+                                                <img class="img-fluid rounded profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
                                             </div>
                                         </div>
+                                        <br/>
                                         <div class="form-group">
                                             <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome"/>
                                         </div>
@@ -117,7 +122,6 @@
                     </div>
                 </div>
             </div>
-    </section>
 </div>
 </div>
 </div>

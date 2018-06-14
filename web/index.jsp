@@ -21,6 +21,10 @@
         <script src="js/validacao.js" type="text/javascript"></script>
         <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <link href="css/style.css" rel="stylesheet">
+        
+        <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+        
         <!--Código Script do Formulario-->
         <script type="text/javascript">
             $(document).ready(function valformulario() {
@@ -47,48 +51,50 @@
                 })
                 $("#telefone").mask("(00)00000-0000")
             })
+
         </script>
     </head>
     <body>
 
         <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.jsp">
-                    <strong>Nice Decorações</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.jsp">Principal
-                            </a>
-                        </li>
-                        <li class="nav-item active dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Categorias
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="cama.jsp">Cama</a>
-                                <a class="dropdown-item" href="mesa.jsp">Mesa</a>
-                                <a class="dropdown-item" href="banho.jsp">Banho</a>
-                            </div>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#sobre">Sobre</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#contato">Contato</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="administrador/login.jsp">Administrativo</a>             
-                        </li>
-                    </ul>
+           <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.jsp">
+                        <strong>Nice Decorações</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.jsp">Principal
+                                </a>
+                            </li>
+                            <li class="nav-item active dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Categorias
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="cama.jsp">Cama</a>
+                                    <a class="dropdown-item" href="mesa.jsp">Mesa</a>
+                                    <a class="dropdown-item" href="banho.jsp">Banho</a>
+                                </div>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#contato">Contato</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="administrador/login.jsp"><img src="img/Inicial/boss.png" class="img-fluid" alt="" style="width: 25px; height: 25px"/></a>             
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+    
         <!-- Slide de Apresentaçãoo -->
         <div class="container">
             <div class="row justify-content-md-center">
@@ -238,7 +244,6 @@
                             <h3 class="titulo">Sobre</h3>
                             <p class="descricao">Saiba mais sobre nossa loja.</p>
                         </div>
-
                         <div id="sobreDescricao">
                             <p>
                                 Lorem Ipsum é simplesmente uma simulaï¿½ï¿½o de texto da indï¿½stria tipogrï¿½fica e de impressos, e vem sendo utilizado desde o sï¿½culo XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu nï¿½o sï¿½ a cinco sï¿½culos, como tambï¿½m ao salto para a editoraï¿½ï¿½o eletrï¿½nica, permanecendo essencialmente inalterado. Se popularizou na dï¿½cada de 60, quando a Letraset
@@ -246,8 +251,10 @@
                             </p>
                         </div>
                         <!--Mapa e texto de endereço para localização-->
+                        <div class="text-center">
+                            <h4>Onde nos encontrar</h4>
+                        </div>
                         <div id="mapaLocalizacao">
-                            <h1>Onde nos encontrar:</h1>
                             <p>Rua Domingos Garcia, 181, Aparecida-SP.</p>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.838015365177!2d-45.23534938551016!3d-22.845481741428806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc36618241431%3A0x821f481dff44bc05!2sR.+Domingos+Garc%C3%ADa%2C+181%2C+Aparecida+-+SP%2C+12570-000!5e0!3m2!1spt-BR!2sbr!4v1528940143860" width="100%" height="70%" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
@@ -290,11 +297,11 @@
                                             <div class="form-group">
                                                 <textarea class="form-control" name="mensagem" rows="5" id="mensagem" placeholder="Deixe sua mensagem"></textarea>
                                             </div>
-                                            <div class="form-group">
-                                                <input type="checkbox" name="termo" id="termo" value="termo_ac" > Ao usar este formulário, você concorda com o armazenamento e o manuseio de seus dados por este site.</input>
+                                            <div class="form-group text-center" id="termoForm">
+                                                <input type="checkbox" name="termo" id="termo" value="termo" > Ao usar este formulário, você concorda com o armazenamento e o manuseio de seus dados por este site.</input>
                                             </div>
                                             <div class="text-center">
-                                                <button class="btn btn-dark text-center" type="submit">Enviar Mensagem</button>
+                                                <button class="btn btn-dark text-center" type="submit">Enviar Mensagem<span class="oi oi-icon-name" title="icon name" aria-hidden="true"></span></button>
                                             </div>
                                             <br/>
                                         </form>
