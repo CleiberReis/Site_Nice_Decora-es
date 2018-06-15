@@ -111,7 +111,7 @@
                                             <input type="senha" class="form-control" name="senha" id="senha" placeholder="Password"/>
                                         </div>
                                         <div class="text-center">
-                                            <button class="btn btn-dark text-center" type="submit">Efetuar Login</button>
+                                            <button class="btn btn-dark text-center" type="submit" >Efetuar Login</button>
                                         </div>
                                         <br/>
                                     </form>
