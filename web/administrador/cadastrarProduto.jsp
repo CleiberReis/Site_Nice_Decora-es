@@ -81,7 +81,6 @@
                     </ul>
                 </div>
             </div> 
-        </div>
     </nav>
     <!-- login admm -->
         <br/>
@@ -134,8 +133,6 @@
                     </div>
                 </div>
             </div>
-</div>
-</div>
 </div>
 <!-- Rodapé -->
 <footer class="py-5 badge-info">
