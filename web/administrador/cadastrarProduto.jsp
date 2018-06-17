@@ -107,10 +107,7 @@
                                                
                                             </div>
                                         </div>
-                                        <br/>
-                                        <div class="form-group">
-                                            <input type="text" name="codigo" class="form-control" id="codigo" placeholder="Código do Produto"/>
-                                        </div>
+                                        <br/> 
                                         <div class="form-group">
                                             <input type="text" name="produto" class="form-control" id="produto" placeholder="Digite nome do produto"/>
                                         </div>
