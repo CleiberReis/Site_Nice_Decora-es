@@ -112,7 +112,7 @@
                                             <input type="text" name="produto" class="form-control" id="produto" placeholder="Digite nome do produto"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="categoria" class="form-control" name="categoria" id="senha" placeholder="categoria"/>
+                                            <input type="text" class="form-control" name="categoria" id="senha" placeholder="categoria"/>
                                         </div>
                                         <div class="form-group">
                                                 <textarea class="form-control" name="descricao" rows="5" id="descricao" placeholder="Descrição do Produto"></textarea>
