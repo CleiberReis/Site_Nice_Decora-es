@@ -2,14 +2,14 @@ package dominio;
 
 public class Produto extends Categoria {
 
-    private String nome;
+    private String nomeProduto;
     private double preco;
     private String cor;
     private String material;
     private double tamanho;
 
     public void setNome(String novoNome) {
-        this.nome = novoNome;
+        this.nomeProduto = novoNome;
     }
 
     public void setPreco(double novoPreco) {
@@ -29,7 +29,7 @@ public class Produto extends Categoria {
     }
 
     public String getNome() {
-        return nome;
+        return nomeProduto;
     }
 
     public double getPreco() {
