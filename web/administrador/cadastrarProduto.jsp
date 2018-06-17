@@ -108,16 +108,31 @@
                                         </div>
                                         <br/> 
                                         <div class="form-group">
-                                            <input type="text" name="produto" class="form-control" id="produto" placeholder="Digite nome do produto"/>
+                                            <input type="text" name="nomeProduto" class="form-control" id="produto" placeholder="Digite o nome do produto"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="categoria" id="senha" placeholder="categoria"/>
+                                            <input type="text" class="form-control" name="categoria" placeholder="Digite a categoria"/>
                                         </div>
                                         <div class="form-group">
-                                                <textarea class="form-control" name="descricao" rows="5" id="descricao" placeholder="Descrição do Produto"></textarea>
+                                            <input type="text" class="form-control" name="preco" placeholder="Digite o preço"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="cor" placeholder="Digite a cor"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="material" placeholder="Digite o material"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="tamanho" placeholder="Digite o tamanho"/>
+                                        </div>
+                                        <div class="form-group">
+                                                <textarea class="form-control" name="descricao" rows="5" placeholder="Digite a descrição do produto"></textarea>
                                             </div>
                                         <div class="form-group">
+                                            <label> Envie a imagem do produto abaixo:
+                                                
                                                 <input type="file" name="imagem" accept="image/*">
+                                            </label>
                                         </div>
                                         
                                         
