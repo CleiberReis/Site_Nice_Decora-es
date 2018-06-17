@@ -77,7 +77,6 @@
                     </ul>
                 </div>
             </div> 
-        </div>
     </nav>
     <!-- login admm -->
         <br/>
