@@ -122,8 +122,6 @@
                 </div>
             </div>
 </div>
-</div>
-</div>
 <!-- Rodapé -->
 <footer class="py-5 badge-info">
     <div class="container">
