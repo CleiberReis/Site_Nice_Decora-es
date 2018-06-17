@@ -107,7 +107,7 @@
                                             <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="senha" id="senha" placeholder="Digite a senha"/>
+                                            <input type="text" class="form-control" name="senha" id="senha" placeholder="Digite sua senha"/>
                                         </div>
                                         <div class="text-center">
                                             <button class="btn btn-dark text-center" type="submit" >Efetuar Login</button>
