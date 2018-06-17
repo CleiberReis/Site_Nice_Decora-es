@@ -120,6 +120,11 @@
                                         <div class="form-group">
                                                 <textarea class="form-control" name="descricao" rows="5" id="descricao" placeholder="Descrição do Produto"></textarea>
                                             </div>
+                                        <div class="form-group">
+                                                <input type="file" name="imagem" accept="image/*">
+                                        </div>
+                                        
+                                        
                                         <div class="text-center">
                                             <button class="btn btn-dark text-center" type="submit" >Salvar</button>
                                         </div>
