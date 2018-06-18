@@ -78,7 +78,7 @@
                     </div>
                     <a href="listarContato.jsp" class="btn btn-outline-success" role="button">Listar contatos</a>
                     <br />
-                    <a href="excluirContato.jsp" class="btn btn-outline-warning" role="button">Excluir contato</a>
+                    <a href="excluirContato.jsp" class="btn btn-outline-danger" role="button">Excluir contato</a>
                     <br />
                 </div>
             </div>
