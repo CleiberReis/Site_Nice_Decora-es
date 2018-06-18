@@ -64,10 +64,7 @@
                     <a href="excluirProduto.jsp" class="btn btn-outline-danger" role="button">Excluir um produto</a>
                 </div>
             </div>
-        </div>
-        <br />
-
-        <div class="container">
+            <br />
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-6">
                     <div>
