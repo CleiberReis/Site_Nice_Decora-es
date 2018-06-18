@@ -2,5 +2,5 @@
 <%
     String codigo = request.getParameter("codigo");
     ProdutoBD.excluir(Integer.parseInt(codigo));
-    response.sendRedirect("listar.jsp");
+    response.sendRedirect("listarProduto.jsp");
 %>
