@@ -17,7 +17,10 @@
                 <tr>
                     <th>Código</th>
                     <th>Nome</th>
-                    <th>Links</th>
+                    <th>Email</th>
+                    <th>telefone</th>
+                    <th>Mensagem</th>
+                    <th>Ações</th>
                 </tr>
             </thead>
             <tbody>
@@ -28,6 +31,9 @@
                 <tr>
                     <td><%=cadaCliente.getCodigo()%></td>
                     <td><%=cadaCliente.getNome()%></td>
+                    <td><%=cadaCliente.getEmail()%></td>
+                    <td><%=cadaCliente.getTelefone()%></td>
+                    <td><%=cadaCliente.getMensagem()%></td>
                     <td>
                         <a href="excluirCliente.jsp?codigo=<%=cadaCliente.getCodigo()%>">Excluir</a>
                     </td>
