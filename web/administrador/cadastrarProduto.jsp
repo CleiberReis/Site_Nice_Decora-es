@@ -27,21 +27,23 @@
             $(document).ready(function valformulario() {
 
                 $("#formulario").validate({
-                rules: {
-                produto: {
-                required: true,
-                        maxlength: 80
-                },
-                        descrição: {
-                        required: true,
-                                minlength: 8
+                    rules: {
+                        produto: {
+                            required: true,
+                            maxlength: 80
                         },
-                        valor: {
-                        required: true,
-                                minlength: 8
+                        descricao: {
+                            required: true,
+                            minlength: 8
                         },
-                }
+                        preco: {
+                            required: true,
+                            minlength: 8
+                        }
+                    }
                 })
+
+            })
 
         </script>
     </head>
