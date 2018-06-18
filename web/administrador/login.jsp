@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
+
         <link href="../img/img.ico" rel="icon">
         <title>Nice Decorações</title>
 
@@ -27,17 +27,18 @@
             $(document).ready(function valformulario() {
 
                 $("#formulario").validate({
-                rules: {
-                nome: {
-                required: true,
-                        maxlength: 80
-                },
-                        senha: {
-                        required: true,
-                                minlength: 8
+                    rules: {
+                        nome: {
+                            required: true,
+                            maxlength: 80
                         },
-                }
+                        senha: {
+                            required: true,
+                            minlength: 8
+                        }
+                    }
                 })
+            })
 
         </script>
     </head>
@@ -77,8 +78,8 @@
                     </ul>
                 </div>
             </div> 
-    </nav>
-    <!-- login admm -->
+        </nav>
+        <!-- login admm -->
         <br/>
         <br/>
         <div class="cabecalho">
@@ -92,7 +93,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-8 col-sm-6">
                     <div class="form">
-                       
+
                         <div class="container wow fadeInUp">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -121,12 +122,12 @@
                     </div>
                 </div>
             </div>
-</div>
-<!-- Rodapé -->
-<footer class="py-5 badge-info">
-    <div class="container">
-        <p class="m-0 text-center text-white">Nice Decorações &copy; 2018 - Todos os direitos reservados</p>
-    </div>
-</footer>
-</body>
+        </div>
+        <!-- Rodapé -->
+        <footer class="py-5 badge-info">
+            <div class="container">
+                <p class="m-0 text-center text-white">Nice Decorações &copy; 2018 - Todos os direitos reservados</p>
+            </div>
+        </footer>
+    </body>
 </html>
