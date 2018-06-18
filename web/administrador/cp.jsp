@@ -52,34 +52,29 @@
             <h3 class="titulo">Painel de Controle</h3>
         </div>
         <hr>
-        <div class="container wow fadeInUp">
-            <div class="row justify-content-center">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-6">
                     <div>
                         <h3>Gestão de Produtos</h3>
                     </div>
                     <a href="cadastrarProduto.jsp" class="btn btn-outline-success" role="button">Adicionar novo produto</a>
-                    <br />
                     <a href="editarProduto.jsp" class="btn btn-outline-warning" role="button">Editar um produto</a>
-                    <br />
                     <a href="listarProduto.jsp" class="btn btn-outline-primary" role="button">Listar os produtos</a>
-                    <br />
                     <a href="excluirProduto.jsp" class="btn btn-outline-danger" role="button">Excluir um produto</a>
                 </div>
             </div>
         </div>
         <br />
 
-        <div class="container wow fadeInUp">
-            <div class="row justify-content-center">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-6">
                     <div>
                         <h3>Gestão de Clientes</h3>
                     </div>
                     <a href="listarContato.jsp" class="btn btn-outline-success" role="button">Listar contatos</a>
-                    <br />
                     <a href="excluirContato.jsp" class="btn btn-outline-danger" role="button">Excluir contato</a>
-                    <br />
                 </div>
             </div>
         </div>
