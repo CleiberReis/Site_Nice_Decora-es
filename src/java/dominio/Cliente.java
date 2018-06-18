@@ -1,20 +1,32 @@
 package dominio;
 
 public class Cliente extends Pessoa {
+
     private String telefone;
     private String mensagem;
-    
-    public void setTelefone(String novoTelefone){
+    private int codigo;
+
+    public void setTelefone(String novoTelefone) {
         telefone = novoTelefone;
     }
-    public void setMensagem(String novoMensagem){
+
+    public void setMensagem(String novoMensagem) {
         mensagem = novoMensagem;
     }
-  
-    public String getTelefone(){
+
+    public void setCodigo(int novoCodigo) {
+        codigo = novoCodigo;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public String getTelefone() {
         return telefone;
     }
-    public String getMensagem(){
+
+    public String getMensagem() {
         return mensagem;
     }
 }
