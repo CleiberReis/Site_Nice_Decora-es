@@ -59,21 +59,8 @@
                             <a class="nav-link" href="../index.jsp">Principal
                             </a>
                         </li>
-                        <li class="nav-item active dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Categorias
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="../cama.jsp">Cama</a>
-                                <a class="dropdown-item" href="../mesa.jsp">Mesa</a>
-                                <a class="dropdown-item" href="../banho.jsp">Banho</a>
-                            </div>
-                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#sobre">Sobre</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#contato">Contato</a>
+                            <a class="nav-link" href="login.jsp">Painel de Controle</a>
                         </li>                       
                     </ul>
                 </div>
@@ -97,7 +84,7 @@
                         <div class="container wow fadeInUp">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <form class="form-check" name="formulario" id="formulario" method="post" action="cadastrarProduto.jsp" onsubmit="return valFormulario()">
+                                    <form class="form-check" name="formulario" id="formulario" method="post" action="cp.jsp" onsubmit="return valFormulario()">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 col-md-8 col-sm-8 text-center">
                                                 <img class="img-fluid rounded profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
