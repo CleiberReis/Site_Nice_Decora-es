@@ -281,7 +281,8 @@
                                                 }
                                             }
                                         %>
-                                        <form class="form-check" name="formulario" id="formulario" method="post" action="inserir.jsp" onsubmit="return valFormulario()">
+                                        
+                                        <form class="form-check" name="formulario" id="formulario" method="post" action="usuario/inserir.jsp" onsubmit="return valFormulario()">
                                             <div class="form-group">
                                                 <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome"/>
                                             </div>
@@ -295,7 +296,7 @@
                                                 <textarea class="form-control" name="mensagem" rows="5" id="mensagem" placeholder="Deixe sua mensagem"></textarea>
                                             </div>
                                             <div class="form-group text-center" id="termoForm">
-                                                <input type="checkbox" name="termo" id="termo" value="termo" > Ao usar este formulário, você concorda com o armazenamento e o manuseio de seus dados por este site.</input>
+                                                <input type="checkbox" name="termo" id="termo" value="termo" > Ao usar este formulário, você concorda com o armazenamento e o manuseio de seus dados por este site.
                                             </div>
                                             <div class="text-center">
                                                 <button class="btn btn-dark text-center" type="submit">Enviar Mensagem<span class="oi oi-icon-name" title="icon name" aria-hidden="true"></span></button>
