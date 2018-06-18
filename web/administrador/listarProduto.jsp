@@ -32,7 +32,7 @@
         %>
         
         <table class="table table-striped">
-            <thead class="thead-light">
+            <thead class="thead-dark">
                 <tr>
                     <th>Código</th>
                     <th>Nome</th>
