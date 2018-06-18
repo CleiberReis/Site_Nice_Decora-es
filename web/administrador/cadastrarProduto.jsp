@@ -120,7 +120,7 @@
                                     <form class="form-check" name="formulario" id="formulario" method="post" action="inserirProduto.jsp" onsubmit="return valFormulario()">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 col-md-8 col-sm-8 text-center">
-                                                <a href="listarProduto.jsp">Lista de Produtos</a>
+                                                <a href="listarProduto.jsp" class="btn btn-primary">Lista de Produtos</a>
                                             </div>
                                             <!-- Mensagem de Cadastro dos produtos -->
                                             <%

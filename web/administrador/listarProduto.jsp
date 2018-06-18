@@ -6,10 +6,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
+
         <link href="../img/img.ico" rel="icon">
         <title>Lista de Produtos.</title>
-        
+
         <!-- Bootstrap / Validate / JQuery core CSS -->
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <script src="../js/jquery-3.3.1.min.js" type="text/javascript"></script>
@@ -21,52 +21,69 @@
         <script src="../js/validacao.js" type="text/javascript"></script>
         <script src="../js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <link href="../css/style.css" rel="stylesheet" type="text/css"/>
-        
+
     </head>
     <body>
-        <h1>Lista de Produtos.</h1>
-        <a href="cadastrarProduto.jsp">Cadastrar produto.</a>
-        
-        <%
-            ArrayList<Produto> lista = ProdutoBD.listar();
-        %>
-        
-        <table class="table table-bordered table-hover">
-            <thead>
-                <tr>
-                    <th>Código</th>
-                    <th>Nome</th>
-                    <th>Categoria</th>
-                    <th>Preço</th>
-                    <th>Cor</th>
-                    <th>Material</th>
-                    <th>Tamanho</th>
-                    <th>Excluir</th>
-                </tr>
-            </thead>
-            <tbody>
-                
-                <%
-                    for (int i=0; i < lista.size();i++){
-                        Produto cadaProduto = lista.get(i);
-                %>
-                
-                <tr>
-                    <td><%=cadaProduto.getCodigo()%></td>
-                    <td><%=cadaProduto.getNome()%></td>
-                    <td>X</td>
-                    <td><%=cadaProduto.getPreco()%></td>
-                    <td><%=cadaProduto.getCor()%></td>
-                    <td><%=cadaProduto.getMaterial()%></td>
-                    <td><%=cadaProduto.getTamanho()%></td>
-                    <td>
-                        <a href="excluirProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>">Excluir</a>
-                    </td>
-                </tr>
-                <%
-                    }
-                %>
-            </tbody>
-        </table>        
+        <div class="container-fluid">
+            <!-- Barra de Navegação -->
+            <div class="navbar navbar-expand-lg badge-info fixed-top">
+                <div class="container justify-content-end">
+                    <span class="navbar-brand">
+                        <strong>Nice Decorações</strong>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Tabela de produtos cadastrados (INICIO) -->
+            <div class="row">
+                <div class="col">
+                    <h1>Lista de Produtos</h1>
+                    <a href="cadastrarProduto.jsp" class="btn btn-primary">Cadastrar mais produtos</a>
+                </div>
+            </div>
+
+            <%
+                ArrayList<Produto> lista = ProdutoBD.listar();
+            %>
+
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nome</th>
+                        <th>Categoria</th>
+                        <th>Preço</th>
+                        <th>Cor</th>
+                        <th>Material</th>
+                        <th>Tamanho</th>
+                        <th>Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <%
+                        for (int i = 0; i < lista.size(); i++) {
+                            Produto cadaProduto = lista.get(i);
+                    %>
+
+                    <tr>
+                        <td><%=cadaProduto.getCodigo()%></td>
+                        <td><%=cadaProduto.getNome()%></td>
+                        <td>X</td>
+                        <td><%=cadaProduto.getPreco()%></td>
+                        <td><%=cadaProduto.getCor()%></td>
+                        <td><%=cadaProduto.getMaterial()%></td>
+                        <td><%=cadaProduto.getTamanho()%></td>
+                        <td>
+                            <a href="excluirProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-danger">Exlcuir</a>
+                        </td>
+                    </tr>
+                    <%
+                        }
+                    %>
+                </tbody>
+            </table>
+            <!-- Tabela de produtos cadastrados (FIM) --> 
+        </div>
     </body>
 </html>
