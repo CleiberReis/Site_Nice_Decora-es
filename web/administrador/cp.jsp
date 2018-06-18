@@ -36,8 +36,7 @@
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="../index.jsp">Principal
-                                </a>
+                                <a class="nav-link" href="../index.jsp">Principal</a>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="../administrador/login.jsp"><img src="../img/Inicial/boss.png" class="img-fluid" alt="" style="width: 25px; height: 25px"/></a>             
