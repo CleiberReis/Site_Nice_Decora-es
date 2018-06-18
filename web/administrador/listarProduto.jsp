@@ -32,7 +32,7 @@
         %>
         
         <table class="table table-striped">
-            <thead>
+            <thead class="thead-light">
                 <tr>
                     <th>Código</th>
                     <th>Nome</th>
@@ -41,6 +41,7 @@
                     <th>Cor</th>
                     <th>Material</th>
                     <th>Tamanho</th>
+                    <th>Excluir</th>
                 </tr>
             </thead>
             <tbody>
@@ -58,6 +59,9 @@
                     <td><%=cadaProduto.getCor()%></td>
                     <td><%=cadaProduto.getMaterial()%></td>
                     <td><%=cadaProduto.getTamanho()%></td>
+                    <td>
+                        <a href="excluirProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>">Excluir</a>
+                    </td>
                 </tr>
                 <%
                     }
