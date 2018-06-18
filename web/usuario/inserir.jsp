@@ -15,5 +15,5 @@ cliente.setMensagem(mensagem);
 
 // a classe de persistencia Usuario BD insere o usuario no banco de dados.
 ClienteBD.inserir(cliente); // se tem parenteses é um método.
-response.sendRedirect("index.jsp?status=OK");
+response.sendRedirect("../index.jsp?status=OK");
 %>
