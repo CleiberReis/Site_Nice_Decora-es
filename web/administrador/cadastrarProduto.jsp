@@ -123,7 +123,7 @@
                         <div class="container wow fadeInUp">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <form class="form-check" name="formulario" id="formulario" method="post" action="cadastrarProduto.jsp" onsubmit="return valFormulario()">
+                                    <form class="form-check" name="formulario" id="formulario" method="post" action="inserirProduto.jsp" onsubmit="return valFormulario()">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 col-md-8 col-sm-8 text-center">
                                                 <a href="listarProduto.jsp">Lista de Produtos</a>
