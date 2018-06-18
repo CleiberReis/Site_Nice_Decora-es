@@ -1,11 +1,41 @@
+<%@page import="persistencia.ClienteBD"%>
+<%@page import="dominio.Cliente"%>
+<%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Lista de usuários</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <%
+            ArrayList<Cliente> lista = ClienteBD.listar();
+        %>
+        <table>
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Links</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%
+                    for (int i = 0; i < lista.size(); i++) {
+                        Cliente cadaCliente = lista.get(i);
+                %>
+                <tr>
+                    <td><%=cadaCliente.getCodigo()%></td>
+                    <td><%=cadaCliente.getNome()%></td>
+                    <td>
+                        <a href="excluirCliente.jsp?codigo=<%=cadaCliente.getCodigo()%>">Excluir</a>
+                    </td>
+                </tr>
+                <%
+                    }
+                %>
+            </tbody>
+        </table>
     </body>
 </html>
