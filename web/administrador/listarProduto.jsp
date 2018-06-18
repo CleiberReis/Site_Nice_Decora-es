@@ -31,8 +31,8 @@
             ArrayList<Produto> lista = ProdutoBD.listar();
         %>
         
-        <table class="table table-striped">
-            <thead class="thead-dark">
+        <table class="table table-bordered table-hover">
+            <thead>
                 <tr>
                     <th>Código</th>
                     <th>Nome</th>

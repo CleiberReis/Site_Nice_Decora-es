@@ -51,6 +51,9 @@
                             required: true,
                             minlength: 8
                         }
+                    },
+                    submitHandler: function (form) {
+                        $.notify("Produto cadastrado com sucesso!", "success")
                     }
                 })
 

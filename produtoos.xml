@@ -1,29 +1,29 @@
 <list>
   <produto>
-    <codigo>1</codigo>
-    <descricao>renda exclusiva da loja nice decora??es</descricao>
-    <nomeProduto>Toalha de mesa</nomeProduto>
-    <preco>1.23456789E8</preco>
+    <codigo>4</codigo>
+    <descricao>toalha de mesa.</descricao>
+    <nomeProduto>Toalha</nomeProduto>
+    <preco>5465498.0</preco>
     <cor>Vermelho</cor>
+    <material>sodkpsodksopdk</material>
+    <tamanho>654.0</tamanho>
+  </produto>
+  <produto>
+    <codigo>5</codigo>
+    <descricao>renda nice</descricao>
+    <nomeProduto>pano de prato</nomeProduto>
+    <preco>987.0</preco>
+    <cor>branco</cor>
     <material>pano</material>
-    <tamanho>7.89456123E8</tamanho>
+    <tamanho>321.0</tamanho>
   </produto>
   <produto>
-    <codigo>2</codigo>
-    <descricao>skdpaoskdpoaskdposkd</descricao>
-    <nomeProduto>sdijsodj</nomeProduto>
-    <preco>5.4684987E7</preco>
-    <cor>ijdosijdosidj</cor>
-    <material>djsodjisoijd</material>
-    <tamanho>5465498.0</tamanho>
-  </produto>
-  <produto>
-    <codigo>3</codigo>
-    <descricao>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk654</descricao>
-    <nomeProduto>qwe</nomeProduto>
-    <preco>321.0</preco>
-    <cor>azul</cor>
-    <material>sijdsiodj</material>
-    <tamanho>65.0</tamanho>
+    <codigo>6</codigo>
+    <descricao>sudhsudg</descricao>
+    <nomeProduto>toalha dois</nomeProduto>
+    <preco>56.0</preco>
+    <cor>verde</cor>
+    <material>pqiou</material>
+    <tamanho>32.0</tamanho>
   </produto>
 </list>
