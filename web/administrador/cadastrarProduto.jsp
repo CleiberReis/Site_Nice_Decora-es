@@ -91,6 +91,16 @@
         </div>
         <br/>
         <hr>
+        <!-- Mensagem de Cadastro dos produtos -->
+        <%
+        String status = request.getParameter("status");
+        if (status != null){
+            if (status.equals("OK")){
+                out.println("Produto cadastrado com sucesso.");
+            }
+        }
+        %>
+        
         <br/>
         <div class="container wow fadeInUp">
             <div class="row justify-content-center">
