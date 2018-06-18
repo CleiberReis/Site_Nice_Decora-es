@@ -8,7 +8,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <link href="../img/img.ico" rel="icon">
-        <title>Lista de Produtos.</title>
+        <title>Lista de Produtos</title>
 
         <!-- Bootstrap / Validate / JQuery core CSS -->
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
