@@ -36,8 +36,7 @@
                             required: true
                         },
                         preco: {
-                            required: true,
-                            minlength: 8
+                            required: true
                         },
                         cor: {
                             required: true
@@ -127,7 +126,7 @@
                                     <form class="form-check" name="formulario" id="formulario" method="post" action="cadastrarProduto.jsp" onsubmit="return valFormulario()">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 col-md-8 col-sm-8 text-center">
-                                               
+                                                <a href="listarProduto.jsp">Lista de Produtos</a>
                                             </div>
                                         </div>
                                         <br/> 

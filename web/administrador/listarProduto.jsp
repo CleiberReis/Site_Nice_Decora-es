@@ -31,6 +31,40 @@
             ArrayList<Produto> lista = ProdutoBD.listar();
         %>
         
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Preço</th>
+                    <th>Cor</th>
+                    <th>Material</th>
+                    <th>Tamanho</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <%
+                    for (int i=0; i < lista.size();i++){
+                        Produto cadaProduto = lista.get(i);
+                %>
+                
+                <tr>
+                    <td><%=cadaProduto.getCodigo()%></td>
+                    <td><%=cadaProduto.getNome()%></td>
+                    <td>X</td>
+                    <td><%=cadaProduto.getPreco()%></td>
+                    <td><%=cadaProduto.getCor()%></td>
+                    <td><%=cadaProduto.getMaterial()%></td>
+                    <td><%=cadaProduto.getTamanho()%></td>
+                </tr>
+                <%
+                    }
+                %>
+            </tbody>
+        </table>
+        
         
         
         
