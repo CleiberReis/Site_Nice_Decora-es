@@ -28,15 +28,27 @@
 
                 $("#formulario").validate({
                     rules: {
-                        produto: {
+                        nomeProduto: {
                             required: true,
                             maxlength: 80
                         },
-                        descricao: {
+                        categoria: {
+                            required: true
+                        },
+                        preco: {
                             required: true,
                             minlength: 8
                         },
-                        preco: {
+                        cor: {
+                            required: true
+                        },
+                        material: {
+                            required: true
+                        },
+                        tamanho: {
+                            required: true
+                        },
+                        descricao: {
                             required: true,
                             minlength: 8
                         }
