@@ -53,7 +53,8 @@
                         }
                     },
                     submitHandler: function (form) {
-                        $.notify("Produto cadastrado com sucesso!", "success")
+                        $.notify("Produto cadastrado com sucesso!", "success");
+                        form.submit();//usando isso, o formulario é enviado
                     }
                 })
 

@@ -10,20 +10,11 @@
   </produto>
   <produto>
     <codigo>5</codigo>
-    <descricao>renda nice</descricao>
-    <nomeProduto>pano de prato</nomeProduto>
-    <preco>987.0</preco>
-    <cor>branco</cor>
-    <material>pano</material>
-    <tamanho>321.0</tamanho>
-  </produto>
-  <produto>
-    <codigo>6</codigo>
-    <descricao>sudhsudg</descricao>
-    <nomeProduto>toalha dois</nomeProduto>
-    <preco>56.0</preco>
-    <cor>verde</cor>
-    <material>pqiou</material>
-    <tamanho>32.0</tamanho>
+    <descricao>Renda Nice</descricao>
+    <nomeProduto>Pano de Prato</nomeProduto>
+    <preco>23.0</preco>
+    <cor>Roxo</cor>
+    <material>Algodão</material>
+    <tamanho>87.0</tamanho>
   </produto>
 </list>
