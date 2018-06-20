@@ -115,10 +115,10 @@
                                 <a href="descricao.jsp"><img class="card-img-top" src="img/Banho/img3.jpg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="descricao.jsp">Toalha de Renda</a>
+                                        <a href="descricao.jsp">Conjunto de Banheiro</a>
                                     </h4>
                                     <h5>R$00,00</h5>
-                                    <p class="card-text">Toalha de mesa em renda vermelha, perfeita para decoraï¿½ï¿½o de mesa.</p>
+                                    <p class="card-text">Conjunto de Banheiro para deixar o seu banheiro mais bonito.</p>
                                     <p class="card-text">Clique no item para saber mais!</p>
                                 </div>
                                 <div class="card-footer">
@@ -131,10 +131,10 @@
                                 <a href="#"><img class="card-img-top" src="img/Cama/img1.jpg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="#">Item dois</a>
+                                        <a href="#">Jogo de Cama</a>
                                     </h4>
                                     <h5>R$00,00</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                                    <p class="card-text">Jogo de Cama estampado.</p>
                                 </div>
                                 <div class="card-footer">
                                 </div>
