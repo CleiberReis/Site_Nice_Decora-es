@@ -21,7 +21,7 @@
         <script src="js/validacao.js" type="text/javascript"></script>
         <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <link href="css/style.css" rel="stylesheet">
-        
+
         <!--Código Script do Formulario-->
         <script type="text/javascript">
             $(document).ready(function valformulario() {
@@ -54,88 +54,57 @@
     <body>
 
         <!-- Barra de Navegação -->
-           <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
-                <div class="container">
-                    <a class="navbar-brand" href="index.jsp">
-                        <strong>Nice Decorações</strong>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.jsp">Principal
-                                </a>
-                            </li>
-                            <li class="nav-item active dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Categorias
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="cama.jsp">Cama</a>
-                                    <a class="dropdown-item" href="mesa.jsp">Mesa</a>
-                                    <a class="dropdown-item" href="banho.jsp">Banho</a>
-                                </div>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#sobre">Sobre</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#contato">Contato</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="administrador/login.jsp"><img src="img/Inicial/boss.png" class="img-fluid" alt="" style="width: 25px; height: 25px"/></a>             
-                            </li>
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.jsp">
+                    <strong>Nice Decorações</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.jsp">Principal
+                            </a>
+                        </li>
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="cama.jsp">Cama</a>
+                                <a class="dropdown-item" href="mesa.jsp">Mesa</a>
+                                <a class="dropdown-item" href="banho.jsp">Banho</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="administrador/login.jsp"><img src="img/Inicial/boss.png" class="img-fluid" alt="" style="width: 25px; height: 25px"/></a>             
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-    
+            </div>
+        </nav>
+        <header class="py-5 bg-image-full" style="background-image: url(img/Inicial/imagemPrincipal.png);">
+            <img class="img-fluid d-block mx-auto" src="img/Inicial/logo.png" alt="">
+        </header> 
+
         <!-- Slide de Apresentaçãoo -->
+
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-lg-9 col-sm-12">
-                    <div class="cabecalho">
-                        <br/>
-                        <h2 class="titulo">Bem-vindo ao Nice Decorações
-                            <img id=logo src="img/img.ico" class="img-fluid"/></h2>
-                    </div>
-
-                    <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="img/Slide/img.jpg" alt="First Slide"/>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/Slide/img1.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/Slide/img2.jpg" alt="Third slide">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Próximo</span>
-                        </a>
-                    </div>
-
                     <br/>
                     <br/>
                     <hr>
                     <br/>
                     <br/>
-
-                    <!--Portifolio de Principais Produtos-->
                     <div class="cabecalho">
                         <h3 class="titulo">Principais Produtos</h3>
                         <p class="descricao">Conheça e compre nossos produtos</p>
@@ -281,7 +250,7 @@
                                                 }
                                             }
                                         %>
-                                        
+
                                         <form class="form-check" name="formulario" id="formulario" method="post" action="usuario/inserir.jsp" onsubmit="return valFormulario()">
                                             <div class="form-group">
                                                 <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome"/>
