@@ -5,6 +5,7 @@ public class Cliente extends Pessoa {
     private String telefone;
     private String mensagem;
     private int codigo;
+    private boolean termo;
 
     public void setTelefone(String novoTelefone) {
         telefone = novoTelefone;

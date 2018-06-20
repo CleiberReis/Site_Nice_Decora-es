@@ -1,8 +1,18 @@
 <list>
   <cliente>
-    <nome>cleiber</nome>
+    <nome>ddd</nome>
     <email>cleiberrodriguesreis@gmail.com</email>
-    <telefone>(12)11544-4444</telefone>
-    <mensagem>Oi gente! </mensagem>
+    <telefone>(13)26466-5656</telefone>
+    <mensagem>sssssssssssssssssssssssssssssssss</mensagem>
+    <codigo>1</codigo>
+    <termo>false</termo>
+  </cliente>
+  <cliente>
+    <nome>aaaaaaaaaaaaaaaaa</nome>
+    <email>cleiberrodriguesreis@gmail.com</email>
+    <telefone>(13)26466-5656</telefone>
+    <mensagem>dddddddddddddddd</mensagem>
+    <codigo>2</codigo>
+    <termo>false</termo>
   </cliente>
 </list>
