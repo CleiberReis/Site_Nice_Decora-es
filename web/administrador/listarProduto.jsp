@@ -69,6 +69,7 @@
                         <th>Cor</th>
                         <th>Material</th>
                         <th>Tamanho</th>
+                        <th>Editar</th>
                         <th>Excluir</th>
                     </tr>
                 </thead>
@@ -87,6 +88,9 @@
                         <td><%=cadaProduto.getCor()%></td>
                         <td><%=cadaProduto.getMaterial()%></td>
                         <td><%=cadaProduto.getTamanho()%></td>
+                        <td>
+                            <a href="editarProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-warning">Editar</a> 
+                        </td>
                         <td>
                             <a href="excluirProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-danger">Exlcuir</a>
                         </td>
