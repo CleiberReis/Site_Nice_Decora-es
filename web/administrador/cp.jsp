@@ -59,9 +59,7 @@
                         <h3>Gestão de Produtos</h3>
                     </div>
                     <a href="cadastrarProduto.jsp" class="btn btn-outline-success" role="button">Adicionar novo produto</a>
-                    <a href="editarProduto.jsp" class="btn btn-outline-warning" role="button">Editar um produto</a>
-                    <a href="listarProduto.jsp" class="btn btn-outline-primary" role="button">Listar os produtos</a>
-                    <a href="excluirProduto.jsp" class="btn btn-outline-danger" role="button">Excluir um produto</a>
+                    <a href="listarProduto.jsp" class="btn btn-outline-primary" role="button">Listar produtos</a>
                 </div>
             </div>
             <br />
@@ -70,8 +68,7 @@
                     <div>
                         <h3>Gestão de Clientes</h3>
                     </div>
-                    <a href="listarContato.jsp" class="btn btn-outline-success" role="button">Listar contatos</a>
-                    <a href="excluirContato.jsp" class="btn btn-outline-danger" role="button">Excluir contato</a>
+                    <a href="listarContato.jsp" class="btn btn-outline-primary" role="button">Listar contatos</a>
                 </div>
             </div>
         </div>
