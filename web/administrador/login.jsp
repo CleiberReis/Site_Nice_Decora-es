@@ -45,10 +45,10 @@
     <body>
 
         <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #85BDA6;">
             <div class="container">
                 <a class="navbar-brand" href="../index.jsp">
-                    <strong>Nice Decorações</strong>
+                    <img src="../img/Inicial/logo.png" class="img-fluid" style="width: 120px; height: 100px;" alt=""/>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -111,7 +111,7 @@
             </div>
         </div>
         <!-- Rodapé -->
-        <footer class="py-5 badge-info">
+        <footer class="py-5" style="background-color: #85BDA6;">
             <div class="container">
                 <p class="m-0 text-center text-white">Nice Decorações &copy; 2018 - Todos os direitos reservados</p>
             </div>

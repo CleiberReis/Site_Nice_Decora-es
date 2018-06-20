@@ -65,10 +65,10 @@
     <body>
 
         <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #85BDA6;">
             <div class="container">
                 <a class="navbar-brand" href="../index.jsp">
-                    <strong>Nice Decorações</strong>
+                    <img src="../img/Inicial/logo.png" class="img-fluid" style="width: 120px; height: 100px;" alt=""/>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -76,25 +76,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="../index.jsp">Principal
+                            <a class="nav-link" href="cp.jsp">Painel de Controle
                             </a>
                         </li>
-                        <li class="nav-item active dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Categorias
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="../cama.jsp">Cama</a>
-                                <a class="dropdown-item" href="../mesa.jsp">Mesa</a>
-                                <a class="dropdown-item" href="../banho.jsp">Banho</a>
-                            </div>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#sobre">Sobre</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#contato">Contato</a>
-                        </li>                       
                     </ul>
                 </div>
             </div> 
@@ -176,7 +160,7 @@
             </div>
         </div>
         <!-- Rodapé -->
-        <footer class="py-5 badge-info">
+        <footer class="py-5" style="background-color: #85BDA6;">
             <div class="container">
                 <p class="m-0 text-center text-white">Nice Decorações &copy; 2018 - Todos os direitos reservados</p>
             </div>

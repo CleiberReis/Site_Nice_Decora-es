@@ -23,10 +23,10 @@
     <body>
 
  <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #85BDA6;">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
-                    <strong>Nice Decorações</strong>
+                    <img src="img/Inicial/logo.png" class="img-fluid" style="width: 120px; height: 100px;" alt=""/>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -62,14 +62,6 @@
        <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-lg-9 col-sm-12">
-                    <div class="cabecalho">
-                        <br/>
-                        <h2 class="titulo">Bem-vindo ao Nice Decorações
-                            <img id=logo src="img/img.ico" class="img-fluid"/></h2>
-                    </div>
-                    <br/>
-                    <hr>
-                    <br/>
                     <!--Descriçao do Produo-->
                     <div class="card text-center">
                         <div class="jumbotron">
@@ -92,7 +84,7 @@
             </div>
         </div>
         <!-- Rodapé -->
-        <footer class="py-5 badge-info">
+        <footer class="py-5" style="background-color: #85BDA6;">
             <div class="container">
                 <p class="m-0 text-center text-white">Nice Decoraçõess &copy;</p>
             </div>

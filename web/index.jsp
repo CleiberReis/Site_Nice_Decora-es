@@ -54,10 +54,10 @@
     <body>
 
         <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #85BDA6;">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
-                    <strong>Nice Decorações</strong>
+                    <img src="img/Inicial/logo.png" class="img-fluid" style="width: 120px; height: 100px;" alt=""/>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -85,16 +85,15 @@
                             <a class="nav-link" href="#contato">Contato</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="administrador/login.jsp"><img src="img/Inicial/boss.png" class="img-fluid" alt="" style="width: 25px; height: 25px"/></a>             
+                            <a class="nav-link" href="administrador/login.jsp"><img src="img/Inicial/boss.png" class="img-fluid" alt="" style="width: 40px; height: 40px; margin-left: 10px;"/></a>             
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <header class="py-5 bg-image-full" style="background-image: url(img/Inicial/imagemPrincipal.png);">
-            <img class="img-fluid d-block mx-auto" src="img/Inicial/logo.png" alt="">
-        </header> 
-
+        
+        <div style="background-image: url(img/Inicial/imagemPrincipal.jpg); height: 400px; width: 100%;" class="img-fluid">
+        </div>
         <!-- Slide de Apresentaçãoo -->
 
         <div class="container">
@@ -281,7 +280,7 @@
             </div>
         </div>
         <!-- Rodapé -->
-        <footer class="py-5 badge-info">
+        <footer class="py-5" style="background-color: #85BDA6;">
             <div class="container">
                 <p class="m-0 text-center text-white">Nice Decorações &copy; 2018 - Todos os direitos reservados</p>
             </div>

@@ -24,21 +24,34 @@
 
     </head>
     <body>
-        <div class="container-fluid">
-            <!-- Barra de Navegação -->
-            <div class="navbar navbar-expand-lg badge-info fixed-top">
-                <div class="container justify-content-end">
-                    <span class="navbar-brand">
-                        <strong>Nice Decorações</strong>
-                    </span>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #85BDA6;">
+            <div class="container">
+                <a class="navbar-brand" href="../index.jsp">
+                    <img src="../img/Inicial/logo.png" class="img-fluid" style="width: 120px; height: 100px;" alt=""/>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="cp.jsp">Painel de Controle
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+            </div> 
+        </nav>
 
             <!-- Tabela de produtos cadastrados (INICIO) -->
+            <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
+                    <br/><br/>
                     <h1>Lista de Produtos</h1>
+                    <br/><hr/>
                     <a href="cadastrarProduto.jsp" class="btn btn-primary">Cadastrar mais produtos</a>
+                    <br/>
                 </div>
             </div>
 

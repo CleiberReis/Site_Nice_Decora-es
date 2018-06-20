@@ -21,12 +21,12 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        
- <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark badge-info fixed-top">
+
+        <!-- Barra de Navegação -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #85BDA6;">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
-                    <strong>Nice Decorações</strong>
+                    <img src="img/Inicial/logo.png" class="img-fluid" style="width: 120px; height: 100px;" alt=""/>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -57,25 +57,17 @@
                 </div>
             </div>
         </nav>
-<!-- Categorias e Logo -->
+        <br/><br/>
+        <!-- Categorias e Logo -->
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-lg-9 col-sm-12">
-                    <div class="cabecalho">
-                        <br/>
-                        <h2 class="titulo">Bem-vindo ao Nice Decorações
-                            <img id=logo src="img/img.ico" class="img-fluid"/></h2>
-                    </div>
-                    <br/>
-                    <hr>
-                    <br/>
-
-<!--Portifolio de Produtos-->
+                    <!--Portifolio de Produtos-->
                     <div class="cabecalho">
                         <h3 class="titulo">Banho</h3>
                         <p class="descricao">Conheça e compre nossos produtos para seu banheiro.</p>
                     </div>
-
+                    <hr/>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
@@ -168,12 +160,12 @@
                     <br/>
                     <hr>
                     <br/>
-                
+
                 </div>
             </div>
         </div>
-<!-- Rodapé -->
-        <footer class="py-5 badge-info">
+        <!-- Rodapé -->
+        <footer class="py-5" style="background-color: #85BDA6;">
             <div class="container">
                 <p class="m-0 text-center text-white">Nice Decorações &copy;</p>
             </div>
