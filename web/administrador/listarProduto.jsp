@@ -24,7 +24,7 @@
 
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #85BDA6;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2F9C95;">
             <div class="container">
                 <a class="navbar-brand" href="../index.jsp">
                     <img src="../img/Inicial/logo.png" class="img-fluid" style="width: 120px; height: 100px;" alt=""/>
