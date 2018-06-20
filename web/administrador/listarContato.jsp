@@ -35,7 +35,7 @@
                     <td><%=cadaCliente.getTelefone()%></td>
                     <td><%=cadaCliente.getMensagem()%></td>
                     <td>
-                        <a href="excluirCliente.jsp?codigo=<%=cadaCliente.getCodigo()%>">Excluir</a>
+                        <a href="excluirContato.jsp?codigo=<%=cadaCliente.getCodigo()%>">Excluir</a>
                     </td>
                 </tr>
                 <%
