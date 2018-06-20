@@ -94,7 +94,7 @@
         
         <div style="background-image: url(img/Inicial/imagemPrincipal.jpg); height: 400px; width: 100%;" class="img-fluid">
         </div>
-        <!-- Slide de Apresentaçãoo -->
+        <!-- Slide de Apresentação -->
 
         <div class="container">
             <div class="row justify-content-md-center">
@@ -146,10 +146,10 @@
                                 <a href="#"><img class="card-img-top" src="img/Mesa/img1.jpg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="#">Item trÃªs</a>
+                                        <a href="#">Pano de Prato</a>
                                     </h4>
                                     <h5>R$00,00</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                                    <p class="card-text">Pano de prato para sua cozinha, estampado com a mais diversas variedades de imagens.</p>
                                 </div>
                                 <div class="card-footer">
                                 </div>
