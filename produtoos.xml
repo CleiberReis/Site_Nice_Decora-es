@@ -1,1 +1,11 @@
-<list/>
+<list>
+  <produto>
+    <codigo>1</codigo>
+    <descricao>AISJAIJOSIOJASOJISAJIO</descricao>
+    <nomeProduto>TESTE</nomeProduto>
+    <preco>50.0</preco>
+    <cor>preto</cor>
+    <material>AOSK</material>
+    <tamanho>80.0</tamanho>
+  </produto>
+</list>
