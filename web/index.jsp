@@ -112,13 +112,13 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="descricao.jsp"><img class="card-img-top" src="img/Banho/img3.jpg" alt=""></a>
+                                <a href="https://produto.mercadolivre.com.br/MLB-1054040419-jogo-americano-_JM"><img class="card-img-top" src="img/Mesa/img7.jpeg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="descricao.jsp">Conjunto de Banheiro</a>
+                                        <a href="https://produto.mercadolivre.com.br/MLB-1054040419-jogo-americano-_JM">Jogo Americano</a>
                                     </h4>
-                                    <h5>R$00,00</h5>
-                                    <p class="card-text">Conjunto de Banheiro para deixar o seu banheiro mais bonito.</p>
+                                    <h5>R$15,00</h5>
+                                    <p class="card-text">Surpreenda suas visitas com um lindo jogo americano rendado.</p>
                                     <p class="card-text">Clique no item para saber mais!</p>
                                 </div>
                                 <div class="card-footer">
