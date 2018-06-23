@@ -42,7 +42,10 @@
                             email: true
                         },
                         mensagem: {
-                            required: true,
+                            required: true
+                        },
+                        termo: {
+                            required: true
                         }
                     }
                 })
