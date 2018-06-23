@@ -16,7 +16,7 @@ public class CadastrarAdministrador {
     public static void main(String[] args) {
         Administrador administrador = new Administrador();
         administrador.setLogin("admin");
-        administrador.setSenha("senha");
+        administrador.setSenha("admin");
         administrador.setCodigo(1);
         AdministradorBD.inserir(administrador);
     }

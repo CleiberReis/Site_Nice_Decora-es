@@ -1,13 +1,9 @@
 <%@page import="dominio.Administrador"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="persistencia.AdministradorBD"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%
-    Administrador administradorLogado = null;
-if (session.getAttribute("administrador")!= null){
-    administradorLogado = (Administrador) session.getAttribute("administrador");
-}else{
-    response.sendRedirect("login.jsp");
-}
-%>
+<%@include file="validarAdministrador.jsp"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -79,6 +75,7 @@ if (session.getAttribute("administrador")!= null){
                     </div>
                     <a href="listarContato.jsp" class="btn btn-outline-primary" role="button">Listar contatos</a>
                 </div>
+                <jsp:include page="menuSair.jsp"></jsp:include>
             </div>
         </div>
         <hr>
