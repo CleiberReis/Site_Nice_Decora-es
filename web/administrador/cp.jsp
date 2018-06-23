@@ -1,4 +1,13 @@
+<%@page import="dominio.Administrador"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%
+    Administrador administradorLogado = null;
+if (session.getAttribute("administrador")!= null){
+    administradorLogado = (Administrador) session.getAttribute("administrador");
+}else{
+    response.sendRedirect("login.jsp");
+}
+%>
 <!DOCTYPE html>
 <html>
     <head>
