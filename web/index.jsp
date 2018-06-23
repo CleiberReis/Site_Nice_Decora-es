@@ -211,13 +211,18 @@
                         </div>
                         <div id="sobreDescricao">
                             <p>
-                                Lorem Ipsum é simplesmente uma simulaï¿½ï¿½o de texto da indï¿½stria tipogrï¿½fica e de impressos, e vem sendo utilizado desde o sï¿½culo XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu nï¿½o sï¿½ a cinco sï¿½culos, como tambï¿½m ao salto para a editoraï¿½ï¿½o eletrï¿½nica, permanecendo essencialmente inalterado. Se popularizou na dï¿½cada de 60, quando a Letraset
-                                lanï¿½ou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoraï¿½ï¿½o eletrï¿½nica como Aldus PageMaker.
+                                Nice Decorações é um loja familiar que trabalha com material têxtil com foco em produtos decorativos de cama, mesa e banho.
+                            </p>
+                            <p>
+                                Tudo para o seu lar você encontra nas lojas Nice Decorações, deixe sua casa aconchegante gastando pouco.
+                            </p>
+                            <p>
+                                Nos visite no Facebook
                             </p>
                         </div>
                         <!--Mapa e texto de endereço para localização-->
                         <div class="text-center">
-                            <h4>Onde nos encontrar</h4>
+                            <h4><span style="font-weight: bold;">Onde nos encontrar</span></h4>
                         </div>
                         <div id="mapaLocalizacao">
                             <p>Rua Domingos Garcia, 181, Aparecida-SP.</p>
