@@ -28,13 +28,13 @@
 
                 $("#formulario").validate({
                     rules: {
-                        nome: {
+                        login: {
                             required: true,
                             maxlength: 80
                         },
                         senha: {
                             required: true,
-                            minlength: 8
+                            minlength: 4
                         }
                     }
                 })
@@ -69,6 +69,17 @@
         <!-- login admm -->
         <br/>
         <br/>
+        <%
+            String erro = request.getParameter("erro");
+            if (erro != null){
+            if (erro.equals("ADMINISTRADOR_NAO_CADASTRADO")) {
+        %>
+        <div class="col-lg12 col-md12 col-sm12 text-center">
+            <h4>Administrador não existe!</h4>
+        </div>
+        <%
+            }}
+        %>
         <div class="cabecalho">
             <h3 class="titulo">Login de Adm</h3>
             <!-- <p class="descricao"></p>-->
@@ -80,19 +91,19 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-8 col-sm-6">
                     <div class="form">
-
                         <div class="container wow fadeInUp">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <form class="form-check" name="formulario" id="formulario" method="post" action="cp.jsp" onsubmit="return valFormulario()">
+                                    <form class="form-check" name="formulario" id="formulario" method="post" action="logar.jsp" onsubmit="return valFormulario()">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 col-md-8 col-sm-8 text-center">
                                                 <img class="img-fluid rounded profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
                                             </div>
                                         </div>
                                         <br/>
+
                                         <div class="form-group">
-                                            <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome"/>
+                                            <input type="text" name="login" class="form-control" id="login" placeholder="Login"/>
                                         </div>
                                         <div class="form-group">
                                             <input type="text" class="form-control" name="senha" id="senha" placeholder="Digite sua senha"/>
@@ -108,6 +119,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
         <!-- Rodapé -->

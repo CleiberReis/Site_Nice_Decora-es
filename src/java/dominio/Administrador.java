@@ -1,6 +1,7 @@
 package dominio;
 
 public class Administrador extends Pessoa{
+    private int codigo;
     private String login;
     private String senha;
     
@@ -17,4 +18,13 @@ public class Administrador extends Pessoa{
     public String getSenha(){
         return senha;
     }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+    
 }
