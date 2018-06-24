@@ -1,1 +1,1 @@
-<a href="sair.jsp">Sair</a>
+<a href="sair.jsp" class="nav-link">Sair</a>
