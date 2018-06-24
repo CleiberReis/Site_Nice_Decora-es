@@ -1,3 +1,6 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="dominio.Categoria"%>
+<%@page import="persistencia.CategoriaBD"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -32,9 +35,6 @@
                             required: true,
                             maxlength: 80
                         },
-                        categoria: {
-                            required: true
-                        },
                         preco: {
                             required: true
                         },
@@ -50,6 +50,9 @@
                         descricao: {
                             required: true,
                             minlength: 8
+                        },
+                        categoria: {
+                            required: true
                         }
                     },
                     submitHandler: function (form) {
@@ -121,7 +124,20 @@
                                             <input type="text" name="nomeProduto" class="form-control" id="produto" placeholder="Digite o nome do produto"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="categoria" placeholder="Digite a categoria"/>
+                                            <%
+                                                ArrayList<Categoria> categorias = CategoriaBD.listar();
+                                            %>
+                                            <select name="categoria" class="form-control">
+                                                <option value="">Escolha uma categoria...</option>
+                                                <%
+                                                    for (int i = 0; i < categorias.size(); i++) {
+                                                        Categoria cadaCategoria = categorias.get(i);
+                                                %>
+                                                <option value="<%=cadaCategoria.getCodigo()%>"><%=cadaCategoria.getNome()%></option>
+                                                <%
+                                                    }
+                                                %>
+                                            </select>
                                         </div>
                                         <div class="form-group">
                                             <input type="text" class="form-control" name="preco" placeholder="Digite o preço"/>

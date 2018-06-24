@@ -1,0 +1,14 @@
+<list>
+  <categoria>
+    <codigo>1</codigo>
+    <nome>Cama</nome>
+  </categoria>
+  <categoria>
+    <codigo>2</codigo>
+    <nome>Mesa</nome>
+  </categoria>
+  <categoria>
+    <codigo>3</codigo>
+    <nome>Banho</nome>
+  </categoria>
+</list>

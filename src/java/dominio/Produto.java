@@ -7,44 +7,53 @@ public class Produto extends Categoria {
     private String cor;
     private String material;
     private double tamanho;
+    private Categoria categoria;
 
-    public void setNome(String novoNome) {
-        this.nomeProduto = novoNome;
-    }
-
-    public void setPreco(double novoPreco) {
-        this.preco = novoPreco;
-    }
-
-    public void setCor(String novoCor) {
-        this.cor = novoCor;
-    }
-
-    public void setMaterial(String novoMaterial) {
-        this.material = novoMaterial;
-    }
-
-    public void setTamanho(double novoTamanho) {
-        this.tamanho = novoTamanho;
-    }
-
-    public String getNome() {
+    public String getNomeProduto() {
         return nomeProduto;
+    }
+
+    public void setNomeProduto(String nomeProduto) {
+        this.nomeProduto = nomeProduto;
     }
 
     public double getPreco() {
         return preco;
     }
 
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
     public String getCor() {
         return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
     }
 
     public String getMaterial() {
         return material;
     }
 
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
     public double getTamanho() {
         return tamanho;
+    }
+
+    public void setTamanho(double tamanho) {
+        this.tamanho = tamanho;
+    }
+
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
     }
 }

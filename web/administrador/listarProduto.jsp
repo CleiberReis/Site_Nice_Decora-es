@@ -64,13 +64,13 @@
                     <tr>
                         <th>Código</th>
                         <th>Nome</th>
-                        <th>Categoria</th>
                         <th>Preço</th>
                         <th>Cor</th>
                         <th>Material</th>
                         <th>Tamanho</th>
-                        <th>Editar</th>
-                        <th>Excluir</th>
+                        <th>Categoria</th>
+                        <th></th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -78,18 +78,22 @@
                     <%
                         for (int i = 0; i < lista.size(); i++) {
                             Produto cadaProduto = lista.get(i);
+                            String nomeCategoria = "";
+                            if (cadaProduto.getCategoria() != null){
+                                nomeCategoria = cadaProduto.getCategoria().getNome();
+                            }
                     %>
 
                     <tr>
                         <td><%=cadaProduto.getCodigo()%></td>
                         <td><%=cadaProduto.getNome()%></td>
-                        <td>X</td>
                         <td><%=cadaProduto.getPreco()%></td>
                         <td><%=cadaProduto.getCor()%></td>
                         <td><%=cadaProduto.getMaterial()%></td>
                         <td><%=cadaProduto.getTamanho()%></td>
+                        <td><%=nomeCategoria%></td>
                         <td>
-                            <a href="editarProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-warning">Editar</a> 
+                            <a href="editarProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-secondary">Editar</a> 
                         </td>
                         <td>
                             <a href="excluirProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-danger">Exlcuir</a>
