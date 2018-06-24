@@ -67,16 +67,12 @@ public class ProdutoBD {
         Produto produtoEncontrado = null;
         for (int i = 0; i < lista.size(); i++) {
             Produto cadaProduto = lista.get(i);
-
-            //procura o usuario que tem o CPF igual 
-            //Ã  variÃ¡vel "cpf", que tÃ¡ chegando entre
-            //os parÃªnteses
             if (cadaProduto.getNome().equals(codigo)) {
                 produtoEncontrado = cadaProduto;
-                break;
+                return produtoEncontrado;
             }
         }
-        return produtoEncontrado;
+        return null;
     }
 
     private static void lerXml() {
