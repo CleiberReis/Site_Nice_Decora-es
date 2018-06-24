@@ -49,7 +49,7 @@
         <%
             ArrayList<Cliente> lista = ClienteBD.listar();
         %>
-        <table>
+        <table class="table table-bordered table-hover">
             <thead>
                 <tr>
                     <th>Código</th>
