@@ -96,7 +96,7 @@
                             <a href="editarProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-secondary">Editar</a> 
                         </td>
                         <td>
-                            <a href="excluirProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-danger">Exlcuir</a>
+                            <a href="excluirProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-danger">Excluir</a>
                         </td>
                     </tr>
                     <%
