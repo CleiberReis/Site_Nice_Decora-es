@@ -42,10 +42,10 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="../index.jsp">Principal</a>
+                            <a class="nav-link" href="../index.jsp">Início</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="../administrador/login.jsp"><img src="../img/Inicial/boss.png" class="img-fluid" alt="" style="width: 25px; height: 25px"/></a>             
+                            <jsp:include page="menuSair.jsp"></jsp:include>
                         </li>
                     </ul>
                 </div>
@@ -75,10 +75,9 @@
                     </div>
                     <a href="listarContato.jsp" class="btn btn-outline-primary" role="button">Listar contatos</a>
                 </div>
-                <jsp:include page="menuSair.jsp"></jsp:include>
             </div>
         </div>
         <hr>
-       
+
     </body>
 </html>
