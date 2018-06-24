@@ -4,4 +4,9 @@
     <login>admin</login>
     <senha>admin</senha>
   </administrador>
+  <administrador>
+    <codigo>2</codigo>
+    <login>admin</login>
+    <senha>admin</senha>
+  </administrador>
 </list>
