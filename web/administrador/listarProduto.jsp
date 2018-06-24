@@ -93,7 +93,7 @@
                         <td><%=cadaProduto.getTamanho()%></td>
                         <td><%=nomeCategoria%></td>
                         <td>
-                            <a href="editarProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-secondary">Editar</a> 
+                            <a href="cadastrarProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-secondary">Editar</a> 
                         </td>
                         <td>
                             <a href="excluirProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-danger">Excluir</a>
