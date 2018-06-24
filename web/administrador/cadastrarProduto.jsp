@@ -1,3 +1,5 @@
+<%@page import="persistencia.ProdutoBD"%>
+<%@page import="dominio.Produto"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="dominio.Categoria"%>
 <%@page import="persistencia.CategoriaBD"%>
@@ -89,6 +91,18 @@
         <!-- login admm -->
         <br/>
         <br/>
+        <!-- Código do alterar produtos -->
+        <%
+        Produto produto = null;
+        String codigo = request.getParameter("codigo");
+        if (codigo != null){
+            produto = ProdutoBD.getBycodigo(Integer.parseInt(codigo));
+        }else{ // Aqui está adicionando um novo produto.
+            produto = new Produto();
+        }
+        %>
+        <!-- Fim do código de alterar -->
+        
         <div class="cabecalho">
             <h3 class="titulo">Cadastro de Produtos</h3>
             <!-- <p class="descricao"></p>-->
