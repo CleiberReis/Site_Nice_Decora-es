@@ -8,7 +8,7 @@ import java.util.ArrayList; // vetor
 
 public class ProdutoBD {
 
-    private static String caminho = "X";
+    private static String caminho = "C:\\Users\\cleib\\Desktop\\Site_Nice_Decora-es";
 
     private static ArrayList<Produto> lista = new ArrayList<Produto>();
 
@@ -62,7 +62,7 @@ public class ProdutoBD {
         return lista;
     }
 
-    public static Produto getBycodigo(int codigo) {
+    public static Produto getBycodigo(String codigo) {
         lerXml();
         Produto produtoEncontrado = null;
         for (int i = 0; i < lista.size(); i++) {
