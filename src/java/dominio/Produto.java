@@ -8,6 +8,7 @@ public class Produto extends Categoria {
     private String material;
     private double tamanho;
     private Categoria categoria;
+    private String descricao;
 
     public String getNomeProduto() {
         return nomeProduto;
@@ -31,6 +32,14 @@ public class Produto extends Categoria {
 
     public void setCor(String cor) {
         this.cor = cor;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     public String getMaterial() {
