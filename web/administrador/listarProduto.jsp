@@ -68,6 +68,7 @@
                         <th>Cor</th>
                         <th>Material</th>
                         <th>Tamanho</th>
+                        <th>Descrição</th>
                         <th>Categoria</th>
                         <th></th>
                         <th></th>
@@ -91,6 +92,7 @@
                         <td><%=cadaProduto.getCor()%></td>
                         <td><%=cadaProduto.getMaterial()%></td>
                         <td><%=cadaProduto.getTamanho()%></td>
+                        <td><%=cadaProduto.getDescricao()%></td>
                         <td><%=nomeCategoria%></td>
                         <td>
                             <a href="cadastrarProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-secondary">Editar</a> 
