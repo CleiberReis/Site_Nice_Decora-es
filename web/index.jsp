@@ -122,7 +122,8 @@
                         pagina inicial (index). começando pelo ultimo produto
                         que foi cadastrado, exibe até 6 produtos. para o caso de
                         haver mais de 6 produtos cadastrados foi utilizado o if
-                        para controlar e parar o laço (for).
+                        para controlar e parar o laço (for) através da incrementação
+                        da variavel x.
                         -->
                         <%
                             ArrayList<Produto> produtos = ProdutoBD.listar();
