@@ -141,7 +141,7 @@
                                             //}
                                         %>
                                         <div class="form-group">
-                                            <input type="text" name="nomeProduto" class="form-control" id="produto" value="<%=produto.getNome()%>" placeholder="Digite o nome do produto"/>
+                                            <input type="text" name="nomeProduto" class="form-control" id="produto" placeholder="Digite o nome do produto"/>
                                         </div>
                                         <div class="form-group">
                                             <%
@@ -160,19 +160,19 @@
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="preco" value="<%=produto.getPreco()%>" placeholder="Digite o preço"/>
+                                            <input type="text" class="form-control" name="preco" placeholder="Digite o preço"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="cor" value="<%=produto.getCor()%>" placeholder="Digite a cor"/>
+                                            <input type="text" class="form-control" name="cor" placeholder="Digite a cor"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="material" value="<%=produto.getMaterial()%>" placeholder="Digite o material"/>
+                                            <input type="text" class="form-control" name="material" placeholder="Digite o material"/>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="tamanho" value="<%=produto.getTamanho()%>" placeholder="Digite o tamanho"/>
+                                            <input type="text" class="form-control" name="tamanho" placeholder="Digite o tamanho"/>
                                         </div>
                                         <div class="form-group">
-                                            <textarea class="form-control" name="descricao" rows="5"  placeholder="Digite a descrição do produto"><%=produto.getDescricao()%></textarea>
+                                            <textarea class="form-control" name="descricao" rows="5"  placeholder="Digite a descrição do produto"></textarea>
                                         </div>
                                         <div class="form-group">
                                             <label> Envie a imagem do produto abaixo:
