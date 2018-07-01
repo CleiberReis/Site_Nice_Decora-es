@@ -221,9 +221,6 @@
                             <p>
                                 Tudo para o seu lar você encontra nas lojas Nice Decorações, deixe sua casa aconchegante gastando pouco.
                             </p>
-                            <p>
-                                Nos visite no Facebook
-                            </p>
                         </div>
                         <!--Mapa e texto de endereço para localização-->
                         <div class="text-center">
@@ -232,6 +229,12 @@
                         <div id="mapaLocalizacao">
                             <p>Rua Domingos Garcia, 181, Aparecida-SP.</p>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.838015365177!2d-45.23534938551016!3d-22.845481741428806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc36618241431%3A0x821f481dff44bc05!2sR.+Domingos+Garc%C3%ADa%2C+181%2C+Aparecida+-+SP%2C+12570-000!5e0!3m2!1spt-BR!2sbr!4v1528940143860" width="100%" height="70%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <br/>
+                        <div class="text-center">
+                        <p>
+                            <strong>Nos visite no Facebook </strong> <a href="https://www.facebook.com/nice.barbosa.73700"><img src="img/Inicial/facebook.png"/></a>
+                        </p>
                         </div>
                     </section>
 
