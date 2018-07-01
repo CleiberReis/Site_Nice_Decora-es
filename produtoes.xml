@@ -1,86 +1,67 @@
 <list>
   <produto>
     <codigo>1</codigo>
-    <nome>Toalha</nome>
-    <preco>83.0</preco>
-    <cor>azul</cor>
-    <material>ufhdfhoao</material>
-    <tamanho>5.0</tamanho>
+    <nomeProduto>toalha de mesa</nomeProduto>
+    <preco>77.77</preco>
+    <cor>verde</cor>
+    <material>madeira</material>
+    <tamanho>2.0</tamanho>
     <categoria>
-      <codigo>2</codigo>
-      <nome>Mesa</nome>
+      <codigo>1</codigo>
+      <nome>Cama</nome>
     </categoria>
+    <descricao>toalha feita de MADEIRA</descricao>
   </produto>
   <produto>
     <codigo>2</codigo>
-    <nome>len?ol</nome>
-    <preco>64.0</preco>
-    <cor>verde</cor>
-    <material>algodao</material>
-    <tamanho>4.0</tamanho>
+    <nomeProduto>bola de gude</nomeProduto>
+    <preco>87.0</preco>
+    <cor>azul</cor>
+    <material>vidro</material>
+    <tamanho>6.0</tamanho>
     <categoria>
       <codigo>2</codigo>
       <nome>Mesa</nome>
     </categoria>
+    <descricao>bolas de gude para brincar</descricao>
   </produto>
   <produto>
     <codigo>3</codigo>
-    <nome>pano de prato</nome>
-    <preco>98.0</preco>
-    <cor>vermelho</cor>
-    <material>madeira</material>
-    <tamanho>3.0</tamanho>
+    <nomeProduto>mesa de centro</nomeProduto>
+    <preco>65.0</preco>
+    <cor>marrom</cor>
+    <material>metal</material>
+    <tamanho>2.0</tamanho>
     <categoria>
       <codigo>3</codigo>
       <nome>Banho</nome>
     </categoria>
+    <descricao>mesa para colocar no centro do comodo</descricao>
   </produto>
   <produto>
     <codigo>4</codigo>
-    <nome>asdasdasda</nome>
-    <preco>7.0</preco>
-    <cor>sdasdasdsad</cor>
-    <material>cimento</material>
+    <nomeProduto>qwerrt</nomeProduto>
+    <preco>5.0</preco>
+    <cor>rosa</cor>
+    <material>grama</material>
     <tamanho>6.0</tamanho>
     <categoria>
       <codigo>1</codigo>
       <nome>Cama</nome>
     </categoria>
+    <descricao>qwerttt cor de rosa</descricao>
   </produto>
   <produto>
     <codigo>5</codigo>
-    <nome>len?ol</nome>
-    <preco>6.0</preco>
-    <cor>amarelo</cor>
-    <material>ferro</material>
-    <tamanho>4.0</tamanho>
+    <nomeProduto>poioiyy</nomeProduto>
+    <preco>8.0</preco>
+    <cor>vermelho</cor>
+    <material>a</material>
+    <tamanho>6.0</tamanho>
     <categoria>
       <codigo>1</codigo>
       <nome>Cama</nome>
     </categoria>
-  </produto>
-  <produto>
-    <codigo>6</codigo>
-    <nome>len?ol</nome>
-    <preco>6.0</preco>
-    <cor>dd</cor>
-    <material>asd</material>
-    <tamanho>5.0</tamanho>
-    <categoria>
-      <codigo>1</codigo>
-      <nome>Cama</nome>
-    </categoria>
-  </produto>
-  <produto>
-    <codigo>7</codigo>
-    <nome>guardanapo</nome>
-    <preco>2.0</preco>
-    <cor>roxo</cor>
-    <material>pano</material>
-    <tamanho>45.0</tamanho>
-    <categoria>
-      <codigo>2</codigo>
-      <nome>Mesa</nome>
-    </categoria>
+    <descricao>poioiyy vermelho tamano 6</descricao>
   </produto>
 </list>

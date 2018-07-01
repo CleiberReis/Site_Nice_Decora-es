@@ -2,6 +2,7 @@ package dominio;
 
 public class Produto {
 
+    private int codigo;
     private String nomeProduto;
     private double preco;
     private String cor;
@@ -9,6 +10,14 @@ public class Produto {
     private double tamanho;
     private Categoria categoria;
     private String descricao;
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
 
     public String getNomeProduto() {
         return nomeProduto;

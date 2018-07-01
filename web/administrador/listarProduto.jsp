@@ -87,7 +87,7 @@
 
                     <tr>
                         <td><%=cadaProduto.getCodigo()%></td>
-                        <td><%=cadaProduto.getNome()%></td>
+                        <td><%=cadaProduto.getNomeProduto()%></td>
                         <td><%=cadaProduto.getPreco()%></td>
                         <td><%=cadaProduto.getCor()%></td>
                         <td><%=cadaProduto.getMaterial()%></td>

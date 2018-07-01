@@ -1,3 +1,6 @@
+<%@page import="persistencia.ProdutoBD"%>
+<%@page import="dominio.Produto"%>
+<%@page import="java.util.ArrayList"%>
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
@@ -63,21 +66,31 @@
                     </div>
                     <hr/>
                     <div class="row">
+                        <%
+                            ArrayList<Produto> produtos = ProdutoBD.listar();
+                            //String status = request.getParameter("categoriaEscolhida");
+                            for (int i = 0; i < produtos.size(); i++){
+                                Produto cadaProduto = produtos.get(i);
+                        %>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
                                 <a href="#"><img class="card-img-top" src="img/Cama/img1.jpg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="#">Toalha de Renda</a>
+                                        <a href="#"><%=cadaProduto.getNomeProduto()%></a>
                                     </h4>
-                                    <h5>R$00,00</h5>
-                                    <p class="card-text">Toalha de mesa em renda vermelha, perfeita para decora��o de mesa.</p>
+                                    <h5><%=cadaProduto.getPreco()%></h5>
+                                    <p class="card-text"><%=cadaProduto.getDescricao()%></p>
                                     <p class="card-text">Clique no item para saber mais!</p>
                                 </div>
                                 <div class="card-footer">
                                 </div>
                             </div>
                         </div>
+                        <%
+                            }
+                        %>
+                        <!-- 
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
                                 <a href="#"><img class="card-img-top" src="img/Cama/img2.jpg" alt=""></a>
@@ -148,6 +161,7 @@
                                 </div>
                             </div>
                         </div>
+                        -->
                     </div>
 
                     <br/>

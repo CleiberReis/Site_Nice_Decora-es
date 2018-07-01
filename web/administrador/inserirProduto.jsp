@@ -15,7 +15,7 @@
     Categoria categoria = CategoriaBD.buscarPorCodigo(Integer.parseInt(codigoCategoria));
    
     Produto produto = new Produto();
-    produto.setNome(nomeProduto);
+    produto.setNomeProduto(nomeProduto);
     produto.setPreco(Double.parseDouble(preco));
     produto.setCor(cor);
     produto.setMaterial(material);

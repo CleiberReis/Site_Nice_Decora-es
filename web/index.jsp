@@ -76,7 +76,7 @@
                                 Categorias
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="cama.jsp">Cama</a>
+                                <a class="dropdown-item" href="cama.jsp?categoriaEscolhida=Cama">Cama</a>
                                 <a class="dropdown-item" href="mesa.jsp">Mesa</a>
                                 <a class="dropdown-item" href="banho.jsp">Banho</a>
                             </div>

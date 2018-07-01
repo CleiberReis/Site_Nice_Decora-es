@@ -8,7 +8,7 @@ import java.util.ArrayList; // vetor
 
 public class ProdutoBD {
 
-    private static String caminho = "C:\\Users\\cleib\\Desktop\\Site_Nice_Decora-es";
+    private static String caminho = "C:\\Backup OS 15044 - Lisiane\\Backup\\D\\Meus Documentos\\FATEC\\Semestre 02\\pi\\Site (Nice)\\Site_Nice_Decora-es\\";
 
     private static ArrayList<Produto> lista = new ArrayList<Produto>();
 
@@ -67,7 +67,7 @@ public class ProdutoBD {
         Produto produtoEncontrado = null;
         for (int i = 0; i < lista.size(); i++) {
             Produto cadaProduto = lista.get(i);
-            if (cadaProduto.getNome().equals(codigo)) {
+            if (cadaProduto.getNomeProduto().equals(codigo)) {
                 produtoEncontrado = cadaProduto;
                 return produtoEncontrado;
             }
