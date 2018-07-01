@@ -33,8 +33,7 @@
                             maxlength: 80
                         },
                         telefone: {
-                            required: true,
-                            mobileBR: true
+                            required: true
                         },
                         email: {
                             required: true,
