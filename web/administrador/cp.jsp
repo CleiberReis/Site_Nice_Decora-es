@@ -29,7 +29,10 @@
 
     </head>
     <body>
-
+        <header>
+            <div style="background-image: url(../img/Inicial/imagemPrincipal.jpg); height: 400px; width: 100%;" class="img-fluid">
+            </div>
+        </header>
         <!-- Barra de Navegação -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2F9C95;">
             <div class="container">
