@@ -45,9 +45,9 @@
                                 Categorias
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="cama.jsp">Cama</a>
-                                <a class="dropdown-item" href="mesa.jsp">Mesa</a>
-                                <a class="dropdown-item" href="banho.jsp">Banho</a>
+                                <a class="dropdown-item" href="cama.jsp?categoriaEscolhida=Cama">Cama</a>
+                                <a class="dropdown-item" href="cama.jsp?categoriaEscolhida=Mesa">Mesa</a>
+                                <a class="dropdown-item" href="cama.jsp?categoriaEscolhida=Banho">Banho</a>
                             </div>
                         </li>
                     </ul>
@@ -67,6 +67,7 @@
                     <hr/>
                     <div class="row">
                         <%
+                            //listando os produtos na página de acordo com a categoria escolhida pelo usuario
                             ArrayList<Produto> produtos = ProdutoBD.listar();
                             Produto cadaProduto = null;
                             String categoriaEscolhida = request.getParameter("categoriaEscolhida");
