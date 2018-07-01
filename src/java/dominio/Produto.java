@@ -1,6 +1,6 @@
 package dominio;
 
-public class Produto extends Categoria {
+public class Produto {
 
     private String nomeProduto;
     private double preco;
