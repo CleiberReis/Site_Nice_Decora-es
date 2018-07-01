@@ -34,11 +34,10 @@
                         },
                         telefone: {
                             required: true,
-                            minlength: 8
+                            mobileBR: true
                         },
                         email: {
                             required: true,
-                            temArroba: true,
                             email: true
                         },
                         mensagem: {
