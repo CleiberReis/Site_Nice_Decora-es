@@ -68,9 +68,11 @@
                     <div class="row">
                         <%
                             ArrayList<Produto> produtos = ProdutoBD.listar();
-                            //String status = request.getParameter("categoriaEscolhida");
+                            Produto cadaProduto = null;
+                            String categoriaEscolhida = request.getParameter("categoriaEscolhida");
                             for (int i = 0; i < produtos.size(); i++){
-                                Produto cadaProduto = produtos.get(i);
+                                cadaProduto = produtos.get(i);
+                                if (cadaProduto.getCategoria().getNome().equals(categoriaEscolhida)){
                         %>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
@@ -88,6 +90,7 @@
                             </div>
                         </div>
                         <%
+                                }
                             }
                         %>
                         <!-- 

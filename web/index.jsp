@@ -77,8 +77,8 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="cama.jsp?categoriaEscolhida=Cama">Cama</a>
-                                <a class="dropdown-item" href="mesa.jsp">Mesa</a>
-                                <a class="dropdown-item" href="banho.jsp">Banho</a>
+                                <a class="dropdown-item" href="cama.jsp?categoriaEscolhida=Mesa">Mesa</a>
+                                <a class="dropdown-item" href="cama.jsp?categoriaEscolhida=Banho">Banho</a>
                             </div>
                         </li>
                         <li class="nav-item active">
