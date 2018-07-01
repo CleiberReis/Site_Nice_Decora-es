@@ -82,7 +82,7 @@
                                     <h4 class="card-title">
                                         <a href="#"><%=cadaProduto.getNomeProduto()%></a>
                                     </h4>
-                                    <h5><%=cadaProduto.getPreco()%></h5>
+                                    <h5>R$<%=cadaProduto.getPreco()%></h5>
                                     <p class="card-text"><%=cadaProduto.getDescricao()%></p>
                                     <p class="card-text">Clique no item para saber mais!</p>
                                 </div>

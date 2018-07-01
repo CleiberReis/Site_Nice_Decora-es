@@ -1,3 +1,6 @@
+<%@page import="persistencia.ProdutoBD"%>
+<%@page import="dominio.Produto"%>
+<%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -113,24 +116,36 @@
                         <h3 class="titulo">Principais Produtos</h3>
                         <p class="descricao">Conheça e compre nossos produtos</p>
                     </div>
-
                     <div class="row">
+                        <%
+                            ArrayList<Produto> produtos = ProdutoBD.listar();
+                            Produto cadaProduto = null;
+                            for (int i = 0; i < produtos.size(); i++) {
+                                cadaProduto = produtos.get(i);
+                                if (i > 5) {
+                                    break;
+                                } else {
+                        %>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
                                 <a href="https://produto.mercadolivre.com.br/MLB-1054040419-jogo-americano-_JM"><img class="card-img-top" src="img/Mesa/img7.jpeg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="https://produto.mercadolivre.com.br/MLB-1054040419-jogo-americano-_JM">Jogo Americano</a>
+                                        <a href="https://produto.mercadolivre.com.br/MLB-1054040419-jogo-americano-_JM"><%=cadaProduto.getNomeProduto()%></a>
                                     </h4>
-                                    <h5>R$15,00</h5>
-                                    <p class="card-text">Surpreenda suas visitas com um lindo jogo americano rendado.</p>
+                                    <h5>R$<%=cadaProduto.getPreco()%></h5>
+                                    <p class="card-text"><%=cadaProduto.getDescricao()%></p>
                                     <p class="card-text">Clique no item para saber mais!</p>
                                 </div>
                                 <div class="card-footer">
                                 </div>
                             </div>
                         </div>
-
+                        <%
+                                }
+                            }
+                        %>
+                        <!--
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
                                 <a href="#"><img class="card-img-top" src="img/Cama/img1.jpg" alt=""></a>
@@ -201,6 +216,7 @@
                                 </div>
                             </div>
                         </div>
+                        -->
                     </div>
                     <!--Sobre-->
                     <section id="sobre">
