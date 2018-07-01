@@ -64,7 +64,10 @@
                 <div class="col-lg-9 col-sm-12">
                     <!--Portifolio de Produtos-->
                     <div class="cabecalho">
-                        <h3 class="titulo">Cama</h3>
+                        <%
+                            String categoriaEscolhida = request.getParameter("categoriaEscolhida");
+                        %>
+                        <h3 class="titulo"><%=categoriaEscolhida%></h3>
                         <p class="descricao">Conheça e compre nossos produtos para seu quarto.</p>
                     </div>
                     <hr/>
@@ -73,7 +76,6 @@
                             //listando os produtos na página de acordo com a categoria escolhida pelo usuario
                             ArrayList<Produto> produtos = ProdutoBD.listar();
                             Produto cadaProduto = null;
-                            String categoriaEscolhida = request.getParameter("categoriaEscolhida");
                             for (int i = 0; i < produtos.size(); i++){
                                 cadaProduto = produtos.get(i);
                                 if (cadaProduto.getCategoria().getNome().equals(categoriaEscolhida)){
