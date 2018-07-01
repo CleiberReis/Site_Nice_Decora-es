@@ -39,29 +39,16 @@
     <descricao>mesa para colocar no centro do comodo</descricao>
   </produto>
   <produto>
-    <codigo>4</codigo>
-    <nomeProduto>qwerrt</nomeProduto>
-    <preco>5.0</preco>
-    <cor>rosa</cor>
-    <material>grama</material>
-    <tamanho>6.0</tamanho>
+    <codigo>6</codigo>
+    <nomeProduto>caixa de som</nomeProduto>
+    <preco>10.0</preco>
+    <cor>cinza</cor>
+    <material>cobre</material>
+    <tamanho>4.0</tamanho>
     <categoria>
-      <codigo>1</codigo>
-      <nome>Cama</nome>
+      <codigo>2</codigo>
+      <nome>Mesa</nome>
     </categoria>
-    <descricao>qwerttt cor de rosa</descricao>
-  </produto>
-  <produto>
-    <codigo>5</codigo>
-    <nomeProduto>poioiyy</nomeProduto>
-    <preco>8.0</preco>
-    <cor>vermelho</cor>
-    <material>a</material>
-    <tamanho>6.0</tamanho>
-    <categoria>
-      <codigo>1</codigo>
-      <nome>Cama</nome>
-    </categoria>
-    <descricao>poioiyy vermelho tamano 6</descricao>
+    <descricao>sonzeraa</descricao>
   </produto>
 </list>

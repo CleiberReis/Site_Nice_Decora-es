@@ -120,9 +120,12 @@
                         <%
                             ArrayList<Produto> produtos = ProdutoBD.listar();
                             Produto cadaProduto = null;
-                            for (int i = 0; i < produtos.size(); i++) {
+                            int x = 0;
+                            int tamanho = produtos.size()-1;
+                            for (int i = tamanho; i >= 0 ; i--) {
                                 cadaProduto = produtos.get(i);
-                                if (i > 5) {
+                                x++;
+                                if (x > 6) {
                                     break;
                                 } else {
                         %>
