@@ -11,6 +11,7 @@
     String tamanho = request.getParameter("tamanho");
     String descricao = request.getParameter("descricao");
     String codigoCategoria = request.getParameter("categoria");
+    String linkProduto = request.getParameter("linkProduto");
     
     Categoria categoria = CategoriaBD.buscarPorCodigo(Integer.parseInt(codigoCategoria));
    
@@ -22,6 +23,7 @@
     produto.setTamanho(Double.parseDouble(tamanho));
     produto.setDescricao(descricao);
     produto.setCategoria(categoria);
+    produto.setLinkProduto(linkProduto);
 
 // A classe de persistência produtoBD insere o usuário no banco de dados.
     ProdutoBD.inserir(produto);

@@ -55,6 +55,10 @@
                         },
                         categoria: {
                             required: true
+                        },
+                        linkProduto: {
+                            required: true,
+                            noWhiteSpaces: true
                         }
                     },
                     submitHandler: function (form) {
@@ -161,6 +165,9 @@
                                                     }
                                                 %>
                                             </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="linkProduto" placeholder="Cole o link do produto aqui"/>
                                         </div>
                                         <div class="form-group">
                                             <input type="text" class="form-control" name="preco" placeholder="Digite o preço"/>

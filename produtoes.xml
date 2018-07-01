@@ -1,54 +1,30 @@
 <list>
   <produto>
-    <codigo>1</codigo>
-    <nomeProduto>toalha de mesa</nomeProduto>
-    <preco>77.77</preco>
-    <cor>verde</cor>
-    <material>madeira</material>
-    <tamanho>2.0</tamanho>
+    <codigo>7</codigo>
+    <nomeProduto>disco</nomeProduto>
+    <preco>3.0</preco>
+    <cor>preto</cor>
+    <material>vinil</material>
+    <tamanho>7.0</tamanho>
     <categoria>
       <codigo>1</codigo>
       <nome>Cama</nome>
     </categoria>
-    <descricao>toalha feita de MADEIRA</descricao>
+    <descricao>produto teste</descricao>
+    <linkProduto>https://produto.mercadolivre.com.br/MLB-1054040419-jogo-americano-_JM</linkProduto>
   </produto>
   <produto>
-    <codigo>2</codigo>
-    <nomeProduto>bola de gude</nomeProduto>
-    <preco>87.0</preco>
-    <cor>azul</cor>
-    <material>vidro</material>
-    <tamanho>6.0</tamanho>
+    <codigo>8</codigo>
+    <nomeProduto>camisa de time</nomeProduto>
+    <preco>3.0</preco>
+    <cor>vermelha</cor>
+    <material>pano</material>
+    <tamanho>8.0</tamanho>
     <categoria>
       <codigo>2</codigo>
       <nome>Mesa</nome>
     </categoria>
-    <descricao>bolas de gude para brincar</descricao>
-  </produto>
-  <produto>
-    <codigo>3</codigo>
-    <nomeProduto>mesa de centro</nomeProduto>
-    <preco>65.0</preco>
-    <cor>marrom</cor>
-    <material>metal</material>
-    <tamanho>2.0</tamanho>
-    <categoria>
-      <codigo>3</codigo>
-      <nome>Banho</nome>
-    </categoria>
-    <descricao>mesa para colocar no centro do comodo</descricao>
-  </produto>
-  <produto>
-    <codigo>6</codigo>
-    <nomeProduto>caixa de som</nomeProduto>
-    <preco>10.0</preco>
-    <cor>cinza</cor>
-    <material>cobre</material>
-    <tamanho>4.0</tamanho>
-    <categoria>
-      <codigo>2</codigo>
-      <nome>Mesa</nome>
-    </categoria>
-    <descricao>sonzeraa</descricao>
+    <descricao>camiseta de time vermelha</descricao>
+    <linkProduto>https://produto.mercadolivre.com.br/MLB-1054040419-jogo-americano-_JM</linkProduto>
   </produto>
 </list>

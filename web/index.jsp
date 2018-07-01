@@ -139,10 +139,10 @@
                         %>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="https://produto.mercadolivre.com.br/MLB-1054040419-jogo-americano-_JM"><img class="card-img-top" src="img/Mesa/img7.jpeg" alt=""></a>
+                                <a href="<%=cadaProduto.getLinkProduto()%>"><img class="card-img-top" src="img/Mesa/img7.jpeg" alt=""></a>
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="https://produto.mercadolivre.com.br/MLB-1054040419-jogo-americano-_JM"><%=cadaProduto.getNomeProduto()%></a>
+                                        <a href="<%=cadaProduto.getLinkProduto()%>"><%=cadaProduto.getNomeProduto()%></a>
                                     </h4>
                                     <h5>R$<%=cadaProduto.getPreco()%></h5>
                                     <p class="card-text"><%=cadaProduto.getDescricao()%></p>

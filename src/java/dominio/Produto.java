@@ -10,6 +10,16 @@ public class Produto {
     private double tamanho;
     private Categoria categoria;
     private String descricao;
+    private String linkProduto;
+
+    public String getLinkProduto() {
+        return linkProduto;
+    }
+
+    public void setLinkProduto(String linkProduto) {
+        this.linkProduto = linkProduto;
+    }
+    
 
     public int getCodigo() {
         return codigo;
