@@ -1,8 +1,11 @@
 body {
-    padding-top: 120px;
+   /* padding-top: 120px;*/
     background-color: #e5e5e5;
     font-family: Palatino, URW Palladio L, serif;
     font-size: 1.3em;
+}
+.navbar{
+    background-color: #DEB887;
 }
 /*logo nice do titulo principal*/
 #logo{
@@ -34,11 +37,12 @@ body {
 #termoForm{
     color: #999;
 }
+footer{
+    background-color: #DEB887;
+}
 /*responsividade mobile*/
 @media only screen and (max-device-width: 492px){
-    body {
-        padding-top: 56px;
-    }
+   
     #logo{
         display: none;
     }

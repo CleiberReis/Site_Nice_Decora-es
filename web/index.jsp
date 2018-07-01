@@ -54,12 +54,16 @@
         </script>
     </head>
     <body>
-
+        <header>
+            <div style="background-image: url(img/Inicial/imagemPrincipal.jpg); height: 400px; width: 100%;" class="img-fluid">
+            </div>
+        </header>
         <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2F9C95;">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="index.jsp">
                     <img src="img/Inicial/logo.png" class="img-fluid" style="width: 120px; height: 100px;" alt=""/>
+                    <strong>Nice Decorações</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -93,9 +97,8 @@
                 </div>
             </div>
         </nav>
-        
-        <div style="background-image: url(img/Inicial/imagemPrincipal.jpg); height: 400px; width: 100%;" class="img-fluid">
-        </div>
+
+
         <!-- Slide de Apresentação -->
 
         <div class="container">
@@ -231,14 +234,14 @@
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.838015365177!2d-45.23534938551016!3d-22.845481741428806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc36618241431%3A0x821f481dff44bc05!2sR.+Domingos+Garc%C3%ADa%2C+181%2C+Aparecida+-+SP%2C+12570-000!5e0!3m2!1spt-BR!2sbr!4v1528940143860" width="100%" height="70%" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </section>
-                    
+
                     <!--Contato-->
                     <section id="contato">
-                    <br/>
-                    <br/>
-                    <hr>
-                    <br/>
-                    <br/>
+                        <br/>
+                        <br/>
+                        <hr>
+                        <br/>
+                        <br/>
                         <div class="cabecalho">
                             <h3 class="titulo">Contato</h3>
                             <p class="descricao">Deixe sua mensagem para nós.</p>
@@ -286,7 +289,7 @@
             </div>
         </div>
         <!-- Rodapé -->
-        <footer class="py-5" style="background-color: #2F9C95;">
+        <footer class="py-5">
             <div class="container">
                 <p class="m-0 text-center text-white">Nice Decorações &copy; 2018 - Todos os direitos reservados</p>
             </div>
