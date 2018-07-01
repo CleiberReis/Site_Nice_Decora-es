@@ -12,13 +12,13 @@
         <!-- Bootstrap / Validate / JQuery core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-        <script src="js/jquery.mask.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mask.min.js" type="text/javascript"></script>
+        <script src="js/notify.min.js" type="text/javascript"></script>        
         <script src="js/jquery.validate.min.js" type="text/javascript"></script>
         <script src="js/localization/messages_pt_BR.js" type="text/javascript"></script>
-        <script src="js/notify.min.js" type="text/javascript"></script>
+        <script src="js/validacao-adicional.js" type="text/javascript"></script>
         <link href="animate/animate.min.css" rel="stylesheet" type="text/css"/>
-        <script src="js/validacao.js" type="text/javascript"></script>
         <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <link href="css/style.css" rel="stylesheet">
 
@@ -33,7 +33,8 @@
                             maxlength: 80
                         },
                         telefone: {
-                            required: true
+                            required: true,
+                            mobileBR: true
                         },
                         email: {
                             required: true,
@@ -231,9 +232,9 @@
                         </div>
                         <br/>
                         <div class="text-center">
-                        <p>
-                            <strong>Nos visite no Facebook </strong> <a href="https://www.facebook.com/nice.barbosa.73700"><img src="img/Inicial/facebook.png"/></a>
-                        </p>
+                            <p>
+                                <strong>Nos visite no Facebook </strong> <a href="https://www.facebook.com/nice.barbosa.73700"><img src="img/Inicial/facebook.png"/></a>
+                            </p>
                         </div>
                     </section>
 
