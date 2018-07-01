@@ -117,12 +117,19 @@
                         <p class="descricao">Conheça e compre nossos produtos</p>
                     </div>
                     <div class="row">
+                        <!--
+                        o que essa parte do codigo faz é exibir os produtos na
+                        pagina inicial (index). começando pelo ultimo produto
+                        que foi cadastrado, exibe até 6 produtos. para o caso de
+                        haver mais de 6 produtos cadastrados foi utilizado o if
+                        para controlar e parar o laço (for).
+                        -->
                         <%
                             ArrayList<Produto> produtos = ProdutoBD.listar();
                             Produto cadaProduto = null;
                             int x = 0;
-                            int tamanho = produtos.size()-1;
-                            for (int i = tamanho; i >= 0 ; i--) {
+                            int tamanho = produtos.size() - 1;
+                            for (int i = tamanho; i >= 0; i--) {
                                 cadaProduto = produtos.get(i);
                                 x++;
                                 if (x > 6) {
@@ -148,78 +155,6 @@
                                 }
                             }
                         %>
-                        <!--
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="img/Cama/img1.jpg" alt=""></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <a href="#">Jogo de Cama</a>
-                                    </h4>
-                                    <h5>R$00,00</h5>
-                                    <p class="card-text">Jogo de Cama estampado.</p>
-                                </div>
-                                <div class="card-footer">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="img/Mesa/img1.jpg" alt=""></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <a href="#">Pano de Prato</a>
-                                    </h4>
-                                    <h5>R$00,00</h5>
-                                    <p class="card-text">Pano de prato para sua cozinha, estampado com a mais diversas variedades de imagens.</p>
-                                </div>
-                                <div class="card-footer">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="img/Cama/img4.jpg" alt=""></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <a href="#">Item quatro</a>
-                                    </h4>
-                                    <h5>R$00,00</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                                </div>
-                                <div class="card-footer">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="img/Mesa/img2.jpg" alt=""></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <a href="#">Item cinco</a>
-                                    </h4>
-                                    <h5>R$00,00</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="img/Banho/img6.jpg" alt=""></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <a href="#">Item seis</a>
-                                    </h4>
-                                    <h5>R$00,00</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                                </div>
-                            </div>
-                        </div>
-                        -->
                     </div>
                     <!--Sobre-->
                     <section id="sobre">
