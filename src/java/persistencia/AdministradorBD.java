@@ -8,7 +8,7 @@ import java.util.ArrayList; // vetor
 
 public class AdministradorBD {
 
-    private static String caminho = "C:\\Users\\cleib\\Desktop\\Site_Nice_Decora-es\\";
+    private static String caminho = "C:\\Users\\Desiree\\Desktop\\ProjetoNice\\Site_Nice_Decora-es\\";
 
     private static ArrayList<Administrador> lista = new ArrayList<Administrador>();
 
