@@ -21,6 +21,13 @@
     <body>
         <header>
             <div id="header" class="img-fluid">
+                <div class="text-center">
+                    <h1 id="titulo" class="display-4">
+                        <p>Nice Decorações</p>
+                    </h1>
+                    <h3> <p id="subtitulo">Decorações - Atacado & Varejo</p>
+                    </h3>
+                </div>
             </div>
         </header>
         <!-- Barra de Navegação -->
