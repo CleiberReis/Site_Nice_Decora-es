@@ -63,6 +63,8 @@
                     <h1 id="titulo" class="display-4">
                         <p>Bem-Vindo à Nice Decorações</p>
                     </h1>
+                    <h3> <p id="subtitulo">Decorações - Atacado & Varejo</p>
+                    </h3>
                 </div>
             </div>
         </header>

@@ -14,8 +14,12 @@ body {
 }
 #titulo{
     color: #3e3f3e;
-    padding-top: 70px;
+    padding-top: 40px;
     font-size: 6em;
+}
+#subtitulo{
+    color: #3e3f3e;
+    font-size: 2em;
 }
 /*logo nice do titulo principal*/
 #logo{
