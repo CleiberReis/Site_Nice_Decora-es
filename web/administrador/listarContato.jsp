@@ -24,10 +24,6 @@
         <link href="../css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-       <header>
-            <div id="header" class="img-fluid">
-            </div>
-        </header>
         <!-- Barra de Navegação -->
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <div class="container">
