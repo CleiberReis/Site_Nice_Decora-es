@@ -61,8 +61,7 @@
             <div id="header" class="img-fluid">
                 <div class="text-center">
                     <h1 id="titulo" class="display-4">
-                        <p>Bem-Vindo à</p>
-                        <p>Nice Decorações</p>
+                        <p>Bem-Vindo à Nice Decorações</p>
                     </h1>
                 </div>
             </div>
