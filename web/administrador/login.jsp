@@ -101,7 +101,8 @@
                                     <form class="form-check" name="formulario" id="formulario" method="post" action="logar.jsp" onsubmit="return valFormulario()">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 col-md-8 col-sm-8 text-center">
-                                                <img class="img-fluid rounded profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                                                <!--<img class="img-fluid rounded profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />-->
+                                                <img src="../img/login/login.png" alt="login de usuário"/>
                                             </div>
                                         </div>
                                         <br/>
