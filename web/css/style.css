@@ -1,11 +1,21 @@
 body {
    /* padding-top: 120px;*/
     background-color: #e5e5e5;
-    font-family: Palatino, URW Palladio L, serif;
-    font-size: 1.3em;
+    font-family: sans-serif;
+    font-size: 1em;
 }
 .navbar{
     background-color: #DEB887;
+}
+#header{
+    background-image: url(../img/Inicial/principal.png);
+    height: 270px; 
+    width: 100%;
+}
+#titulo{
+    color: #3e3f3e;
+    padding-top: 20px;
+    font-size: 6em;
 }
 /*logo nice do titulo principal*/
 #logo{
@@ -42,7 +52,9 @@ footer{
 }
 /*responsividade mobile*/
 @media only screen and (max-device-width: 492px){
-   
+    header{
+        display: none;
+    }
     #logo{
         display: none;
     }

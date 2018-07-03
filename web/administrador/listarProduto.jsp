@@ -24,7 +24,11 @@
 
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2F9C95;">
+        <header>
+            <div id="header" class="img-fluid">
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="../index.jsp">
                     <img src="../img/Inicial/logo.png" class="img-fluid" style="width: 120px; height: 100px;" alt=""/>
@@ -43,8 +47,8 @@
             </div> 
         </nav>
 
-            <!-- Tabela de produtos cadastrados (INICIO) -->
-            <div class="container">
+        <!-- Tabela de produtos cadastrados (INICIO) -->
+        <div class="container">
             <div class="row">
                 <div class="col text-center">
                     <br/><br/>
@@ -80,7 +84,7 @@
                         for (int i = 0; i < lista.size(); i++) {
                             Produto cadaProduto = lista.get(i);
                             String nomeCategoria = "";
-                            if (cadaProduto.getCategoria() != null){
+                            if (cadaProduto.getCategoria() != null) {
                                 nomeCategoria = cadaProduto.getCategoria().getNome();
                             }
                     %>
@@ -108,5 +112,10 @@
             </table>
             <!-- Tabela de produtos cadastrados (FIM) --> 
         </div>
+        <footer class="py-5">
+            <div class="container">
+                <p class="m-0 text-center text-white">Nice Decorações &copy; 2018 - Todos os direitos reservados</p>
+            </div>
+        </footer>
     </body>
 </html>

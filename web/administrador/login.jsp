@@ -45,7 +45,7 @@
     <body>
         
         <header>
-            <div style="background-image: url(../img/Inicial/imagemPrincipal.jpg); height: 400px; width: 100%;" class="img-fluid">
+            <div id="header" class="img-fluid">
             </div>
         </header>
         <!-- Barra de Navegação -->
