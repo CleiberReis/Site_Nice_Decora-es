@@ -109,17 +109,6 @@
                         <div class="container wow fadeInUp">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <!-- Código do alterar produtos -->
-                                    <%
-                                        //Produto produto = null;
-                                        //String codigo = request.getParameter("codigo");
-                                        //if (codigo != null) {
-                                            //produto = ProdutoBD.getBycodigo(codigo);
-                                        //} else { // Aqui está adicionando um novo produto.
-                                            //produto = new Produto();
-                                        //}
-                                    %>
-                                    <!-- Fim do código de alterar -->
                                     <form class="form-check" name="formulario" id="formulario" method="post" action="inserirProduto.jsp" onsubmit="return valFormulario()">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-8 col-md-8 col-sm-8 text-center">
@@ -136,12 +125,7 @@
                                             %>
                                         </div>
                                         <br/>
-                                        <% // ** COMENTADO POIS NÃO ESTÁ RESOLVENDO O ERRO.
-                                            //String novoNome = "";
-                                            //if(produto.getNomeProduto()!= null){
-                                            //novoNome = produto.getNomeProduto();
-                                            //}
-                                        %>
+                                       
                                         <div class="form-group">
                                             <input type="text" name="nomeProduto" class="form-control" id="produto" placeholder="Digite o nome do produto"/>
                                         </div>

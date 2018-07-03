@@ -1,1 +1,10 @@
-<list/>
+<list>
+  <cliente>
+    <nome>Cliente</nome>
+    <email>cliente@cliente.com</email>
+    <telefone>(12)99999-1111</telefone>
+    <mensagem>Ola, gostaria de fazer um pedido.....</mensagem>
+    <codigo>1</codigo>
+    <termo>false</termo>
+  </cliente>
+</list>
