@@ -1,3 +1,4 @@
+<%@page import="java.io.File"%>
 <%@page import="persistencia.ProdutoBD"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="dominio.Produto"%>
@@ -71,6 +72,7 @@
                         <th>Descrição</th>
                         <th>Categoria</th>
                         <th></th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -93,7 +95,21 @@
                         <td><%=cadaProduto.getTamanho()%></td>
                         <td><%=cadaProduto.getDescricao()%></td>
                         <td><%=nomeCategoria%></td>
-                        
+                        <td>
+                            <%
+                                String filePath = "C:\\Backup OS 15044 - Lisiane\\Backup\\D\\Meus Documentos\\FATEC\\Semestre 02\\pi\\Site Nice\\Site_Nice_Decora-es\\web\\fotos\\";
+                                File file = new File(filePath + cadaProduto.getCodigo() + ".jpg");
+                                if (file.exists()) {
+                            %>
+                            <img src="../fotos/<%=cadaProduto.getCodigo()%>.jpg" width="80" />
+                            <%
+                                }
+                            %>
+                            <form name="formCadastro" enctype="multipart/form-data" method="post" action="upload.jsp?codigo=<%=cadaProduto.getCodigo()%>">
+                                <input type="file" name="foto" />
+                                <input type="submit" name="enviar" value="Enviar foto" />
+                            </form>
+                        </td>
                         <td>
                             <a href="excluirProduto.jsp?codigo=<%=cadaProduto.getCodigo()%>" class="btn btn-block btn-outline-danger">Excluir</a>
                         </td>

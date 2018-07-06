@@ -1,16 +1,30 @@
 <list>
   <produto>
-    <codigo>10</codigo>
-    <nomeProduto>Toalha de Renda</nomeProduto>
-    <preco>15.0</preco>
-    <cor>Vermelha</cor>
-    <material>Renda</material>
-    <tamanho>2.0</tamanho>
+    <codigo>1</codigo>
+    <nomeProduto>Disco</nomeProduto>
+    <preco>5.0</preco>
+    <cor>preto</cor>
+    <material>vinil</material>
+    <tamanho>8.0</tamanho>
     <categoria>
-      <codigo>2</codigo>
-      <nome>Mesa</nome>
+      <codigo>3</codigo>
+      <nome>Banho</nome>
     </categoria>
-    <descricao>Um lindo item de decoracao para sua mesa de jantar.</descricao>
-    <linkProduto>https://produto.mercadolivre.com.br/MLB-1054054449-jogo-americano-_JM</linkProduto>
+    <descricao>disco de vinil para ouvir musicas</descricao>
+    <linkProduto>https://en.wikipedia.org/wiki/Phonograph_record</linkProduto>
+  </produto>
+  <produto>
+    <codigo>2</codigo>
+    <nomeProduto>Livro</nomeProduto>
+    <preco>5.0</preco>
+    <cor>diversas</cor>
+    <material>papel</material>
+    <tamanho>7.0</tamanho>
+    <categoria>
+      <codigo>1</codigo>
+      <nome>Cama</nome>
+    </categoria>
+    <descricao>livro para ler antes de dormir</descricao>
+    <linkProduto>https://en.wikipedia.org/wiki/Pet_Sematary</linkProduto>
   </produto>
 </list>

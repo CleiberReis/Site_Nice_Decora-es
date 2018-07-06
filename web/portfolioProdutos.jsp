@@ -1,3 +1,4 @@
+<%@page import="java.io.File"%>
 <%@page import="persistencia.ProdutoBD"%>
 <%@page import="dominio.Produto"%>
 <%@page import="java.util.ArrayList"%>
@@ -79,13 +80,23 @@
                             //listando os produtos na página de acordo com a categoria escolhida pelo usuario
                             ArrayList<Produto> produtos = ProdutoBD.listar();
                             Produto cadaProduto = null;
+                            String filePath = "C:\\Backup OS 15044 - Lisiane\\Backup\\D\\Meus Documentos\\FATEC\\Semestre 02\\pi\\Site Nice\\Site_Nice_Decora-es\\web\\fotos\\";
                             for (int i = 0; i < produtos.size(); i++) {
                                 cadaProduto = produtos.get(i);
+                                File file = new File(filePath + cadaProduto.getCodigo() + ".jpg");
                                 if (cadaProduto.getCategoria().getNome().equals(categoriaEscolhida)) {
                         %>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="<%=cadaProduto.getLinkProduto()%>"><img class="card-img-top" src="img/Mesa/img7.jpeg" alt=""></a>
+                                <%
+                                    if (file.exists()) {
+                                %>
+                                <a href="<%=cadaProduto.getLinkProduto()%>">
+                                         <img class="card-img-top" src="fotos/<%=cadaProduto.getCodigo()%>.jpg" />
+                                </a>
+                                <%
+                                    }
+                                %>
                                 <div class="card-body">
                                     <h4 class="card-title">
                                         <a href="<%=cadaProduto.getLinkProduto()%>"><%=cadaProduto.getNomeProduto()%></a>
