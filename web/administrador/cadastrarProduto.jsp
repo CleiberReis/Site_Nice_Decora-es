@@ -125,7 +125,7 @@
                                             %>
                                         </div>
                                         <br/>
-                                       
+
                                         <div class="form-group">
                                             <input type="text" name="nomeProduto" class="form-control" id="produto" placeholder="Digite o nome do produto"/>
                                         </div>
@@ -163,14 +163,12 @@
                                         <div class="form-group">
                                             <textarea class="form-control" name="descricao" rows="5"  placeholder="Digite a descrição do produto"></textarea>
                                         </div>
-                                        <div class="form-group">
+                                        <!--<div class="form-group">
                                             <label> Envie a imagem do produto abaixo:
 
                                                 <input type="file" name="imagem" accept="image/*">
                                             </label>
-                                        </div>
-
-
+                                        </div>-->
                                         <div class="text-center">
                                             <button class="btn btn-dark text-center" type="submit" >Salvar</button>
                                         </div>
